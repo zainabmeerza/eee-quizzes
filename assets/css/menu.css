@@ -72,3 +72,20 @@ a{
 	border: red solid 6px;
 }
 
+.rating{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+
+.rating p{
+	font-family: 'Urbanist', sans-serif;
+	font-weight: bold;
+	color:#D9D9D9;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 25px;
+	letter-spacing: 1px;
+}
+
