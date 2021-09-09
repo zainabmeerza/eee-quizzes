@@ -4,16 +4,17 @@
 
 body{
     margin:0px;
-	padding: 0px 150px;
+	padding: 0px 0px;
     color: #fff;
    
 }
 
 .choice-container{
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
+    margin: auto;
+    width: 75%;
     border-radius: 4px;
+    border-bottom: rgb(29,26,26) solid 0.8rem;
     background: rgb(18, 93, 255);
     font-size: 3rem;
     /*min-width: 80rem;*/
