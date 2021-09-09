@@ -98,3 +98,19 @@ a{
 	font-size: 30px;
 }
 
+.logo{
+	height: 60px;
+}
+
+.box:hover{
+	background-color: #17171d;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+
+.box:hover .title{
+	color:rgb(18,92,255);
+	transition: all ease 0.5s;
+}
+
