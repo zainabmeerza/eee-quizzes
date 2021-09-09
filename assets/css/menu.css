@@ -114,3 +114,23 @@ a{
 	transition: all ease 0.5s;
 }
 
+.start_btn button{
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgb(18,92,255);
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 25px;
+}
+
+.start_btn button:hover{
+	background:#1e1e26;
+	color: #fff;
+	border: #fff solid 2px;
+}
