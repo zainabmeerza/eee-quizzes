@@ -13,10 +13,8 @@ body{
     display: flex;
     margin: auto;
     width: 75%;
-    border-radius: 25px;
+    border-radius: 5px;
     border-bottom: rgb(29,26,26) solid 0.8rem;
-    border-left:rgb(29,26,26) solid 0.8rem;
-    border-right: rgb(29,26,26) solid 0.8rem;
     background: rgb(18, 93, 255);
     font-size: 3rem;
     /*min-width: 80rem;*/
@@ -58,6 +56,8 @@ body{
 /* HEADS UP DISPLAY */
 
 #heads-up-display{
+    width: 75%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
    
@@ -68,6 +68,16 @@ body{
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
+
+}
+
+h1{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align:justify;
 }
 
 .heads-up-prefix {
