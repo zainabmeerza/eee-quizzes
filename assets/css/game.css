@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&family=Urbanist:wght@500&display=swap');
+/* CSS Document */
+
+body{
+    margin:0px;
+	padding: 0px 150px;
+    color: #fff;
+   
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    /*min-width: 80rem;*/
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6. 103, 247, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem ;
+    color: white;
+    letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+    font-weight: bold;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+    font-family: 'Urbanist', sans-serif;
+	font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11, 233, 36)0%, rgb(41, 232, 111)100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1)0%, rgb(224, 11, 11, 1)100%);
+}
+
+/* HEADS UP DISPLAY */
+
+#heads-up-display{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.heads-up-display-prefix{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.heads-up-prefix {
+    text-align:center;
+}
+
+#progressBar {
+    width: 40rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11,223, 36);
+    /*margin-top: 2.2rem;
+    margin-bottom: 2.2rem;*/
+    border-radius: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: rgb(11,223,36);
+    width: 0%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}
