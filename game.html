@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset=" UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz Page</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/game.css">
+   
 </head>
 
 <body>
+    
     <div class="container">
         <div id="mainMenu" class="flex-column flex-center">
             <h1>Select Quiz</h1>
             <div id="quizListContainer" class="quiz-list-container"></div>
-        </div>
-
+        </div> 
         <div id="game" class="justify-center flex-column">
 
             <div id="heads-up-display">
-                <!------------ QUESTION NUMBER INDICATOR ------------->
                 <div class="heads-up-display-item">
                     <p id="progressText" class="heads-up-display-prefix">
                         Question
                     </p>
-                    <!------------ PROGRESS BAR ------------->
                     <div id="progressBar">
                         <div id="progressBarFull"></div>
                     </div>
                 </div>
-
-                <!------------ SCORE COUNT --------------->
                 <div class="heads-up-display-item">
                     <p class="heads-up-display-prefix">
                         Score
@@ -42,14 +37,11 @@
                 </div>
             </div>
 
-            <!------ QUIZ QUESTION -------->
             <h1 id="question">What is the answer to this question</h1>
 
-
-            <!------------ MULTIPLE CHOICE 4 OPTIONS ----------->
             <div class="choice-container">
                 <p class="choice-prefix">A.</p>
-                <p class="choice-text" data-number="1">Choice 1</p>
+                <p class="choice-text" data-number="1">Choice</p>
             </div>
 
             <div class="choice-container">
@@ -69,10 +61,8 @@
 
         </div>
     </div>
-
-    <!--------- JS SCRIPT ------------>
-    <script src="assets/js/game.js"></script>
-
+    
+   <script src="assets/js/game.js"></script>
 </body>
 
 </html>

@@ -1,21 +1,17 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&family=Urbanist:wght@500&display=swap');
 /* CSS Document */
-
 body{
 	margin:0px;
 	padding:0px;
 }
-
 ul{
 	list-style:none;
 }
-
 a{
 	text-decoration:none;
 }
-
-.main{
+.container2{
 	width:100%;
 	height: 100vh;
 	/*background-color: #3e6b88;*/
@@ -25,7 +21,6 @@ a{
 	align-items: center;
 	
 }
-
 .box{
 	width:350px;
 	height:610px;
@@ -52,7 +47,7 @@ a{
 	color: red;
 }
 
-.cover{
+.model{
 	height: 350px;
 	max-height: 100%;
 	max-width: 100%;
@@ -72,14 +67,13 @@ a{
 	border: red solid 6px;
 }
 
-.rating{
+.details{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 300px;
 }
-
-.rating p{
+.details p{
 	font-family: 'Urbanist', sans-serif;
 	font-weight: bold;
 	color:#D9D9D9;
@@ -88,8 +82,7 @@ a{
 	font-size: 25px;
 	letter-spacing: 1px;
 }
-
-.title{
+.marvel{
 	padding-top: 10px;
 	color:#D9D9D9;
 	font-weight: bold;
@@ -97,21 +90,33 @@ a{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 }
-
 .logo{
 	height: 60px;
 }
-
 .box:hover{
 	background-color: #17171d;
 	transform-style: preserve-3d;
 	transform: scale(1.02);
 	transition: all ease 0.3s;
 }
-
-.box:hover .title{
+.box:hover .marvel{
 	color:rgb(18,92,255);
 	transition: all ease 0.5s;
+}
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
+	
 }
 
 .start_btn button{
@@ -133,19 +138,4 @@ a{
 	background:#1e1e26;
 	color: #fff;
 	border: #fff solid 2px;
-}
-
-/*--responsive for mobile phone--*/
-@media(max-width:720px){
-	.box{
-		width: 94%;
-		height: 500px;
-	}
-	.cover{
-		height:250px;
-	}
-	.rating p{
-		font-size: 16px;
-		width: 250px;
-	}
 }
