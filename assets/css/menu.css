@@ -52,3 +52,22 @@ a{
 	color: red;
 }
 
+.cover{
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 15px;
+	margin-bottom: 5px;
+}
+
+.beginner:hover img{
+	border: #1fb638 solid 6px;
+}
+
+.intermediate:hover img{
+	border: yellow solid 6px;
+}
+
+.advanced:hover img{
+	border: red solid 6px;
+}
