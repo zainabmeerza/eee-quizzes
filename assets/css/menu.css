@@ -134,3 +134,18 @@ a{
 	color: #fff;
 	border: #fff solid 2px;
 }
+
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.cover{
+		height:250px;
+	}
+	.rating p{
+		font-size: 16px;
+		width: 250px;
+	}
+}
