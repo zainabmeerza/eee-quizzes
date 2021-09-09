@@ -1,4 +1,3 @@
-
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
@@ -83,8 +82,7 @@ class QuizGame {
     }
 }
 
-let quiz1Questions = [
-    {
+let quiz1Questions = [{
         question: 'Which of the following is not applicable to an AC system?',
         choice1: 'It can be transformed.',
         choice2: 'It develops eddy currents',
@@ -108,7 +106,7 @@ let quiz1Questions = [
         choice2: 'Inductor',
         choice3: 'Capacitor',
         choice4: 'Transistor',
-        answer: 2, 
+        answer: 2,
     },
 
     {
@@ -175,8 +173,7 @@ let quiz1Questions = [
 
 ]; //completed
 
-let quiz2Questions = [
-    {
+let quiz2Questions = [{
         question: 'What are the 2 terminals of a diode called?',
         choice1: 'Gate and Drain',
         choice2: 'Pentode and Triode',
@@ -256,11 +253,10 @@ let quiz2Questions = [
         choice4: '6',
         answer: 4,
     },
-    
+
 ]; //completed
 
-let quiz3Questions = [
-    {
+let quiz3Questions = [{
         question: 'Calculate the current in a circuit when the voltage of the circuit is 5 V and the circuit has a total resistance of 5 Ω?',
         choice1: '1 A',
         choice2: '2 A',
@@ -329,7 +325,7 @@ let quiz3Questions = [
         choice1: 'Flow of atoms through a circuit',
         choice2: 'Flow of electrons through a circuit',
         choice3: 'The amount of resistance an electron experiences when travelling through a circuit',
-        choice4:'The energy which each electron has when flowing through a circuit',
+        choice4: 'The energy which each electron has when flowing through a circuit',
         answer: 2,
     },
     {
@@ -340,11 +336,10 @@ let quiz3Questions = [
         choice4: 'Values for the voltage and resistance are required to answer this',
         answer: 2,
     },
-    
+
 ]; //completed
 
-let quiz4Questions = [
-    {
+let quiz4Questions = [{
         question: 'Choose the Passive Component',
         choice1: 'Transistor',
         choice2: 'Resistor',
@@ -424,11 +419,10 @@ let quiz4Questions = [
         choice4: 'The bulb glows dimmer',
         answer: 3,
     },
-    
+
 ]; //completed
 
-let quiz5Questions = [
-    {
+let quiz5Questions = [{
         question: 'What characteristics would characterize an ideal operational amplifier?',
         choice1: 'An infinite voltage gain, an infinite input resistance and zero output resistance',
         choice2: 'An infinite voltage gain, zero input resistance and an infinite output resistance',
@@ -449,7 +443,7 @@ let quiz5Questions = [
         choice1: 'A push-pull amplifier',
         choice2: 'A long-tailed pair amplifier',
         choice3: 'An emitter follower amplifier',
-        choice4: 'A common-emitter amplifier', 
+        choice4: 'A common-emitter amplifier',
         answer: 2,
     },
     {
@@ -508,11 +502,10 @@ let quiz5Questions = [
         choice4: '10,800 rpm',
         answer: 4,
     },
-    
+
 ]; //completed
 
-let quiz6Questions = [
-    {
+let quiz6Questions = [{
         question: "What describes the relationship between the output voltage waveform of a common-emitter amplifer and it's input voltage waveform?",
         choice1: 'Out of phase by 180 degrees',
         choice2: 'lagging by 90 degrees',
@@ -565,7 +558,7 @@ let quiz6Questions = [
         choice1: 'Higher',
         choice2: 'Single',
         choice3: 'Lower',
-        choice4:'Double',
+        choice4: 'Double',
         answer: 3,
     },
     {
@@ -592,11 +585,10 @@ let quiz6Questions = [
         choice4: '78.5%',
         answer: 1,
     },
-    
+
 ]; //completed
 
-const quizList = [
-    {
+const quizList = [{
         title: "Start Quiz",
         quiz: quiz1Questions
     },
@@ -622,28 +614,129 @@ const quizList = [
     }
 ];
 
-class MainPage {
-    constructor(quizList) {
-        this.quizListContainer = document.getElementById('quizListContainer');
-        quizList.forEach((quiz, index) => {
-            let btn = document.createElement("button");
-            btn.innerHTML = quiz.title;
-            btn.onclick = this.runQuiz;
-            btn.dataset.index = index;
-            this.quizListContainer.appendChild(btn);
-        });
+const menuOptions = [
+    {
+        'difficulty':'beginner',
+        'quizTitle': '1',
+        'image': 'capacitor.jpeg',
+        'imageTitle': 'capacitor component diagram decription',
+        'level': 'green',
+        'levelTitle': 'Beginner Level',
+    },
+    {
+        'difficulty':'beginner',
+        'quizTitle': '2',
+        'image': 'inductor.jpeg',
+        'imageTitle': 'inductor component diagram description',
+        'level': 'green',
+        'levelTitle': 'Beginner Level',
+    },
+    {
+        'difficulty':'intermediate',
+        'quizTitle': '3',
+        'image': 'transistors.jpeg',
+        'imageTitle': 'circuit symbol of two types of transistors',
+        'level': 'yellow',
+        'levelTitle': 'Intermediate Level',
+    },
+    {
+        'difficulty':'intermediate',
+        'quizTitle' : '4',
+        'image': 'amplifier.jpeg',
+        'imageTitle': 'circuit schematic of an operational amplifier',
+        'level': 'yellow',
+        'levelTitle': 'Intermediate Level',
+    },
+    {
+        'difficulty':'advanced',
+        'quizTitle': '5',
+        'image': 'diode.jpeg',
+        'imageTitle': 'diode circuit symbol and diagram description',
+        'level': 'red',
+        'levelTitle': 'Advanced Level',
+    },
+    {
+        'difficulty':'advanced',
+        'quizTitle': '6',
+        'image': 'oscillator.jpeg',
+        'imageTitle': 'circuit shcematic of a hartley oscillator',
+        'level': 'red',
+        'levelTitle': 'Advanced Level',
+    }
+];
 
-       /* document.getElementById("quizListContainer").onclick = function () {
-            location.href = "game.html";
-        }*/
-       
+class MainPage {
+
+    const 
+
+    constructor(quizList) {
+        // this.quizListContainer = document.getElementById('quizListContainer');
+        // quizList.forEach((quiz, index) => {
+        //     let btn = document.createElement("button");
+        //     btn.innerHTML = quiz.title;
+        //     btn.onclick = this.runQuiz;
+        //     btn.dataset.index = index;
+        //     this.quizListContainer.appendChild(btn);
+        // });
+
+        /* document.getElementById("quizListContainer").onclick = function () {
+             location.href = "game.html";
+         }*/
+
+         this.renderOptions();
     }
 
-    runQuiz(event) {
-        let quizGame = new QuizGame(quizList[parseInt(event.target.dataset.index, 10)].quiz);
+    renderOptions() {
+        let output = '';
+        menuOptions.forEach((item, index) => {
+            output += `<li class="item-a">
+                        <!-------- SLIDER BOX ----------->
+                        <div class="box ${difficulty}">
+                            <!------ QUIZ TITLE -------->
+                            <p class="marvel">QUIZ ${item.quizTitle}</p>
+                            <!-------- QUIZ COVER PHOTO ------------->
+                            <img src="assets/images/${item.image}" alt="${item.imageTitle}" class="model">
+                            <!----------- QUIZ RATING --------------->
+                            <div class="details">
+                                <p><i class="fas fa-signal ${item.level}"></i> ${item.levelTitle}</p>
+                                <!-------- QUIZ START BUTTON -------->
+                                <div class="start_btn">
+                                    <button class="start-button" data-index="${index}">START</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>`;
+        });
+
+        const container = document.getElementById('menuOptions');
+        container.innerHTML = output;
+
+        let buttons = Array.from(document.getElementsByClassName('start-button'));
+        buttons.forEach((button) => {
+            button.addEventListener('click', () => {
+                document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
+                document.getElementById('quizContainer').classList.toggle('cs-hidden', false);
+                this.runQuiz(parseInt(button.dataset.index, 10));
+            });
+        });
+    }
+
+    runQuiz(index) {
+        let quizGame = new QuizGame(quizList[index].quiz);
         quizGame.startGame();
     }
 }
 
-const mainPage = new MainPage(quizList);
+$(document).ready(function () {
 
+    const mainPage = new MainPage(quizList);
+
+    $('#menuOptions').lightSlider({
+        autoWidth: true,
+        loop: true,
+        onSliderLoad: function () {
+            $('#menuOptions').removeClass('cS-hidden');
+        }
+    });
+
+});

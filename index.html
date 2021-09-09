@@ -1,156 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
+<head> 
+    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Quiz website for electronics and electrical circuits">
-    <meta name="keyword" content="Circuits, Electronics, Electricty, Electrical, Quiz, Questions, Study, Science, Students, Teachers, Learn">
+	<meta name="keyword"
+		content="Circuits, Electronics, Electricty, Electrical, Quiz, Questions, Study, Science, Students, Teachers, Learn">
 	<title>Electronics Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/menu.css" />
 	<link rel="stylesheer" href="assets/css/game.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/lightslider.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-	<!--Jquery-->
-	<script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
-	<script type="text/javascript" src="assets/js/lightslider.js"></script>
 </head>
 
-<body></body>
+<body>
+    <div id="menuContainer" class="container2">
+		<!------------------ SLIDERS ------------------->
+		<ul id="menuOptions" class="cs-hidden"></ul>
+	</div>
+    <div id="quizContainer" class="container">
+        <div id="mainMenu" class="flex-column flex-center">
+            <h1>Select Quiz</h1>
+            <div id="quizListContainer" class="quiz-list-container"></div>
+        </div> 
+        <div id="game" class="justify-center flex-column">
+            <div id="heads-up-display">
+                <div class="heads-up-display-item">
+                    <p id="progressText" class="heads-up-display-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="heads-up-display-item">
+                    <p class="heads-up-display-prefix">
+                        Score
+                    </p>
+                    <h1 class="heads-up-display-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
 
-<div class="container2">
+            <h1 id="question">What is the answer to this question</h1>
 
-	<!------------------ SLIDERS ------------------->
-	<ul id="autoWidth" class="cs-hidden">
+            <div class="choice-container">
+                <p class="choice-prefix">A.</p>
+                <p class="choice-text" data-number="1">Choice</p>
+            </div>
 
-		<!----------------------- QUIZ 1 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box beginner">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 1</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/capacitor.jpeg" alt="capacitor component diagram decription" class="model">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<!--<div class="mainMenu" >
-						<div id="quizListContainer" class="quiz-list-container start_btn"></div>
-					</div> -->
-					<p><i class="fas fa-signal green"></i> Beginner Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-			</div>
-		</li>
+            <div class="choice-container">
+                <p class="choice-prefix">B.</p>
+                <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
 
+            <div class="choice-container">
+                <p class="choice-prefix">C.</p>
+                <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
 
+            <div class="choice-container">
+                <p class="choice-prefix">D.</p>
+                <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
 
-
-		<!----------------------- QUIZ 2 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box beginner">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 2</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/inductor.jpeg" alt="inductor component diagram description" class="model">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<p><i class="fas fa-signal green"></i> Beginner Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-			</div>
-		</li>
-
-		<!----------------------- QUIZ 3 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box intermediate">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 3</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/transistors.jpeg" alt="circuit symbol of two types of transistors" class="model">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<p><i class="fas fa-signal yellow"></i> Intermediate Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-			</div>
-		</li>
-
-		<!----------------------- QUIZ 4 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box intermediate">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 4</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/amplifier.jpeg" alt="circuit schematic of an operational amplifier" class="model">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<p><i class="fas fa-signal yellow"></i> Intermediate Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-			</div>
-		</li>
-
-		<!----------------------- QUIZ 5 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box advanced">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 5</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/diode.jpeg" alt="diode circuit symbol and diagram description" class="model ">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<p><i class="fas fa-signal red"></i> Advanced Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-
-			</div>
-		</li>
-
-		<!----------------------- QUIZ 6 ------------------------------>
-		<li class="item-a">
-			<!-------- SLIDER BOX ----------->
-			<div class="box advanced">
-				<!------ QUIZ TITLE -------->
-				<p class="marvel">QUIZ 6</p>
-				<!-------- QUIZ COVER PHOTO ------------->
-				<img src="assets/images/oscillator.jpeg" alt="circuit shcematic of a hartley oscillator" class="model">
-				<!----------- QUIZ RATING --------------->
-				<div class="details">
-					<p><i class="fas fa-signal red"></i> Advanced Level</p>
-					<!-------- QUIZ START BUTTON -------->
-					<form method="get" action="game.html">
-						<div class="start_btn"><button type="submit">START</button></div>
-					</form>
-				</div>
-			</div>
-		</li>
-	</ul>
-</div>
-
-       <!------------ JAVASCRIPT LINKS ------------->
-      <script src="assets/js/game.js"></script>
-      <script src="assets/js/script.js" type="text/javascript"></script>
+        </div>
+    </div>
+    
+    <!--Jquery-->
+	<script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
+	<script type="text/javascript" src="assets/js/lightslider.js"></script>
+    <script src="assets/js/game.js"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

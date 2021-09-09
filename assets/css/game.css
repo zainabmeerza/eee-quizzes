@@ -107,8 +107,6 @@ h1{
     .choice-container{
         min-width: 40rem;
     }
-    
-    #progressBar {
-        min-width: 1rem;
-    }
+
+
 }
