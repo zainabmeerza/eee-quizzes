@@ -691,7 +691,7 @@ class MainPage {
         menuOptions.forEach((item, index) => {
             output += `<li class="item-a">
                         <!-------- SLIDER BOX ----------->
-                        <div class="box ${difficulty}">
+                        <div class="box ${item.difficulty}">
                             <!------ QUIZ TITLE -------->
                             <p class="marvel">QUIZ ${item.quizTitle}</p>
                             <!-------- QUIZ COVER PHOTO ------------->
