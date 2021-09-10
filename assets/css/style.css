@@ -361,3 +361,40 @@ h1{
 
 }
 
+/* END CSS */
+
+.quiz-end{
+	background-color: #1e1e26;
+	
+}
+
+.final-score {
+		margin: auto;
+		width: 75%;
+		border-radius: 5px;
+		background: rgb(18, 93, 255);
+		font-size: 3rem;
+		/*min-width: 80rem;*/
+
+}
+
+.final-score a {
+	font-size: 20px;
+	font-weight: 500px;
+	color: rgb(18, 92, 255);
+	padding: 15px 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background: #fff;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 25px;
+}
+
+.final-score a:hover {
+	background: #1e1e26;
+	color: #fff;
+	border: #fff solid 2px;
+}
