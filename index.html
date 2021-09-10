@@ -19,7 +19,6 @@
     <div id="heading">
         <h1 id="main-title"><i class="far fa-lightbulb"></i> EEE Quizzes <i class="far fa-lightbulb"></i></h1>
         <h2 id="main-subheading"> Select a quiz below to start. </h2>
-        <i class="fas fa-arrow-circle-down"></i>
     </div>
    
     <div id="menuContainer" class="container2">
@@ -78,11 +77,34 @@
         </div>
     </div>
 
+    <div id="end" class="quiz-end">
+        <div class="final-score">
+            <div id="final-score-container">
+                <h2><i class="far fa-lightbulb"></i>  Final Score: <span id="end-score">0  </span><i class="far fa-lightbulb"></i></h2>
+                <h3>Save your score below & see if you've made it to the high scores table!</h3>
+            </div>
+
+            <form id="save-score-form" class="flex-container">
+                <input type="text" name="username" placeholder="Please enter your name." id="username"
+                    pattern="[a-zA-Z0-9]{5,15}" aria-label="Add your name for the high-scores leaderboard!" required>
+                <button class="start-button" id="save-score" type="submit"
+                    aria-label="Save your score by clicking on this button" disabled>Save</button>
+            </form>
+
+            <a href="index.html" class="start-button" aria-label="Link to home page, will take you to a new page"> Home
+            </a>
+            <a href="end.html" class="start-button"
+                aria-label="Link to High Scores page, this will take you to a new page"> High Scores </a>
+
+        </div>
+    </div>
+
     <!--Jquery-->
     <script type="text/javascript" src="assets/js/JQuery3.3.1.js"></script>
     <script type="text/javascript" src="assets/js/lightslider.js"></script>
     <script src="assets/js/game.js"></script>
     <script src="assets/js/script.js" type="text/javascript"></script>
+    <script src="end.js" defer></script>
 </body>
 
 </html>

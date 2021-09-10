@@ -29,10 +29,15 @@ class QuizGame {
     getNewQuestion = () => {
         if (this.availableQuestions.length === 0 || this.questionCounter > MAX_QUESTIONS) {
             localStorage.setItem('mostRecentScore', this.score);
+            document.getElementById('menuContainer').style.display = "none";
+            document.getElementById('heading').style.display = "none";
+            document.getElementById('quizContainer').style.display = "none";
+            document.getElementById('end').style.display = "block";
 
-            return window.location.assign('end.html');
+            return window.location.assign('index.html');
         }
 
+       
         this.questionCounter++
         this.progressText.innerText = `Question ${this.questionCounter} of ${MAX_QUESTIONS}`;
         this.progressBarFull.style.width = `${(this.questionCounter / MAX_QUESTIONS) * 100}%`
@@ -79,7 +84,9 @@ class QuizGame {
     incrementScore = num => {
         this.score += num;
         this.scoreText.innerText = this.score;
+        
     }
+
 }
 
 let quiz1Questions = [{
