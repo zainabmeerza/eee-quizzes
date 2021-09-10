@@ -46,6 +46,6 @@ document.getElementById("save-score-form").addEventListener('submit', function(e
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
    /* window.location.assign('https://8000-yellow-weasel-tiu1kpfg.ws-eu16.gitpod.io/end.html');*/
-    window.location.assign('#')
+   /* window.location.assign('#')*/
     
 });

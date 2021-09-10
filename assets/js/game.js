@@ -30,7 +30,7 @@ class QuizGame {
         if (this.availableQuestions.length === 0 || this.questionCounter > MAX_QUESTIONS) {
             localStorage.setItem('mostRecentScore', this.score);
 
-            return window.location.assign('index.html');
+            return window.location.assign('end.html');
         }
 
         this.questionCounter++
@@ -693,7 +693,7 @@ class MainPage {
                         <!-------- SLIDER BOX ----------->
                         <div class="box ${item.difficulty}">
                             <!------ QUIZ TITLE -------->
-                            <p class="marvel">QUIZ ${item.quizTitle}</p>
+                            <p class="marvel">Quiz ${item.quizTitle}</p>
                             <!-------- QUIZ COVER PHOTO ------------->
                             <img src="assets/images/${item.image}" alt="${item.imageTitle}" class="model">
                             <!----------- QUIZ RATING --------------->
@@ -708,6 +708,9 @@ class MainPage {
                     </li>`;
         });
 
+
+        
+
         const container = document.getElementById('menuOptions');
         container.innerHTML = output;
 
@@ -717,6 +720,7 @@ class MainPage {
                /* document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
                 document.getElementById('quizContainer').classList.toggle('cs-hidden', false);*/
                 document.getElementById('menuContainer').style.display = "none";
+                document.getElementById('heading').style.display = "none";
                 document.getElementById('quizContainer').style.display = "block";
                 this.runQuiz(parseInt(button.dataset.index, 10));
             });
@@ -742,3 +746,4 @@ $(document).ready(function () {
     });
 
 });
+
