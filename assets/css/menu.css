@@ -95,6 +95,7 @@ a {
 	text-decoration: none;
 }
 
+
 .container2 {
 	width: 100%;
 	height: 100vh;
@@ -236,6 +237,7 @@ a {
 /* GAME CSS */
 .container{
 	background-color: #1e1e26;
+	padding-bottom: 25px;
 }
 .choice-container{
     display: flex;
@@ -256,21 +258,21 @@ a {
 }
 
 .choice-prefix {
-    padding: 2rem ;
+    padding: 0.8rem 2rem 0.8rem 2rem ;
     color: white;
     letter-spacing: 2px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
     font-weight: bold;
 }
 
 .choice-text{
-    padding: 2rem;
+    padding: 0.6rem 2rem 0.6rem 2rem;
     width: 100%;
     font-family: 'Urbanist', sans-serif;
 	font-weight: bold;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .correct {
@@ -293,7 +295,7 @@ a {
 
 .heads-up-display-prefix{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     margin-top: 2rem;
 
@@ -304,7 +306,7 @@ h1{
     margin: auto;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align:justify;
 }
 
@@ -329,7 +331,27 @@ h1{
     width: 0%;
 }
 
+.container{
+	display: none;
+}
 
+.container a{
+	color: white;
+    font-size: 1.2rem;
+}
+
+.container i{
+	font-size: larger;
+}
+
+.container h3{
+	color: white;
+	text-decoration: none;
+	padding: 3rem 1rem 0rem 4rem;
+    width: 60%;
+    margin: 0;
+	font-size: 20px;
+}
 
 @media screen and (max-width: 768px){
     .choice-container{
@@ -338,3 +360,4 @@ h1{
 
 
 }
+

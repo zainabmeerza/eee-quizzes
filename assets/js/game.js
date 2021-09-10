@@ -714,8 +714,10 @@ class MainPage {
         let buttons = Array.from(document.getElementsByClassName('start-button'));
         buttons.forEach((button) => {
             button.addEventListener('click', () => {
-                document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
-                document.getElementById('quizContainer').classList.toggle('cs-hidden', false);
+               /* document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
+                document.getElementById('quizContainer').classList.toggle('cs-hidden', false);*/
+                document.getElementById('menuContainer').style.display = "none";
+                document.getElementById('quizContainer').style.display = "block";
                 this.runQuiz(parseInt(button.dataset.index, 10));
             });
         });
