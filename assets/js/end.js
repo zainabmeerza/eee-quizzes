@@ -38,3 +38,5 @@ document.getElementById("save-score-form").addEventListener('submit', function (
     window.location.assign('#');
 
 });
+
+
