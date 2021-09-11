@@ -9,6 +9,9 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+header{
+	background: rgb(18, 93, 255);
+}
 h1 {
 	font-size: 2rem;
 	color: #fff;

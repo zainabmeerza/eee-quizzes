@@ -16,11 +16,13 @@
 </head>
 
 <body>
-    <div id="heading">
-        <h1 id="main-title"><i class="far fa-lightbulb"></i> EEE Quizzes <i class="far fa-lightbulb"></i></h1>
-        <h2 id="main-subheading"> Select a quiz below to start. </h2>
-    </div>
-   
+    <header>
+        <div id="heading">
+            <h1 id="main-title"><i class="far fa-lightbulb"></i> EEE Quizzes <i class="far fa-lightbulb"></i></h1>
+            <h2 id="main-subheading"> Select a quiz below to start. </h2>
+        </div>
+    </header>
+
     <div id="menuContainer" class="container2">
         <!-- SLIDERS (RENDERS 6 QUIZ CONTAINERS) -->
         <ul id="menuOptions" class="cs-hidden"></ul>
@@ -44,14 +46,14 @@
                 </div>
                 <div class="heads-up-display-item">
                     <p class="heads-up-display-prefix">
-                        
+
                     </p>
                     <span class="heads-up-display-main-text">
-                        
+
                     </span>
                 </div>
             </div>
-          
+
 
             <h1 id="question">What is the answer to this question</h1>
 
@@ -81,11 +83,12 @@
     <div id="end" class="quiz-end">
         <div class="final-score">
             <div id="final-score-container">
-                <h2><i class="far fa-lightbulb"></i>  Final Score: <span class="score"> 0 </span>/1000 <i class="far fa-lightbulb"></i></h2>
+                <h2><i class="far fa-lightbulb"></i> Final Score: <span class="score"> 0 </span>/1000 <i
+                        class="far fa-lightbulb"></i></h2>
                 <h3>You've completed the quiz!</h3>
             </div>
 
-           <!--- <form id="save-score-form" class="flex-container">
+            <!--- <form id="save-score-form" class="flex-container">
                 <input type="text" name="username" placeholder="Please enter your name." id="username"
                     pattern="[a-zA-Z0-9]{5,15}" aria-label="Add your name for the high-scores leaderboard!" required>
                 <button class="start-button" id="save-score" type="submit"
