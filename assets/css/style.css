@@ -567,6 +567,7 @@ span {
 
 	.container {
 		width: 465px;
+		height: fit-content;
 	}
 
 	#progressBar {
@@ -596,6 +597,10 @@ span {
 
 	.container2{
 		padding-bottom: 11rem;
+	}
+
+	.quiz-end {
+		height: fit-content;
 	}
 }
 
