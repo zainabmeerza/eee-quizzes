@@ -700,7 +700,7 @@ class MainPage {
                         <!-------- SLIDER BOX ----------->
                         <div class="box ${item.difficulty}">
                             <!------ QUIZ TITLE -------->
-                            <p class="marvel">Quiz ${item.quizTitle}</p>
+                            <p class="marvel">QUIZ ${item.quizTitle}</p>
                             <!-------- QUIZ COVER PHOTO ------------->
                             <img src="assets/images/${item.image}" alt="${item.imageTitle}" class="model">
                             <!----------- QUIZ RATING --------------->
