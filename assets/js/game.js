@@ -34,6 +34,7 @@ class QuizGame {
             document.getElementById('heading').style.display = "none";
             document.getElementById('quizContainer').style.display = "none";
             document.getElementById('end').style.display = "block";
+            document.getElementById('end').style.background = "#1e1e26;";
 
             return window.location.assign('#');
         }
@@ -729,6 +730,7 @@ class MainPage {
                 document.getElementById('menuContainer').style.display = "none";
                 document.getElementById('heading').style.display = "none";
                 document.getElementById('quizContainer').style.display = "block";
+                document.getElementById('quizContainer').style.background = "#1e1e26;";
                 this.runQuiz(parseInt(button.dataset.index, 10));
             });
         });
