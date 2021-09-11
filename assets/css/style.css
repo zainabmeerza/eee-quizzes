@@ -516,6 +516,7 @@ span {
 
 	.container {
 		width: 465px;
+		padding-bottom: 700px;
 		
 	}
 
@@ -547,6 +548,8 @@ span {
 	.container2{
 		padding-bottom: 11rem;
 	}
+
+	
 
 	
 }
