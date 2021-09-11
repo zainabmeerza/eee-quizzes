@@ -37,7 +37,7 @@ class QuizGame {
             return window.location.assign('#');
         }
 
-       
+
         this.questionCounter++
         this.progressText.innerText = `Question ${this.questionCounter} of ${MAX_QUESTIONS}`;
         this.progressBarFull.style.width = `${(this.questionCounter / MAX_QUESTIONS) * 100}%`
@@ -84,7 +84,7 @@ class QuizGame {
     incrementScore = num => {
         this.score += num;
         this.scoreText.innerText = this.score;
-        
+
     }
 
 }
@@ -621,9 +621,8 @@ const quizList = [{
     }
 ];
 
-const menuOptions = [
-    {
-        'difficulty':'beginner',
+const menuOptions = [{
+        'difficulty': 'beginner',
         'quizTitle': '1',
         'image': 'capacitor.jpeg',
         'imageTitle': 'capacitor component diagram decription',
@@ -631,7 +630,7 @@ const menuOptions = [
         'levelTitle': 'Beginner Level',
     },
     {
-        'difficulty':'beginner',
+        'difficulty': 'beginner',
         'quizTitle': '2',
         'image': 'inductor.jpeg',
         'imageTitle': 'inductor component diagram description',
@@ -639,7 +638,7 @@ const menuOptions = [
         'levelTitle': 'Beginner Level',
     },
     {
-        'difficulty':'intermediate',
+        'difficulty': 'intermediate',
         'quizTitle': '3',
         'image': 'transistors.jpeg',
         'imageTitle': 'circuit symbol of two types of transistors',
@@ -647,15 +646,15 @@ const menuOptions = [
         'levelTitle': 'Intermediate Level',
     },
     {
-        'difficulty':'intermediate',
-        'quizTitle' : '4',
+        'difficulty': 'intermediate',
+        'quizTitle': '4',
         'image': 'amplifier.jpeg',
         'imageTitle': 'circuit schematic of an operational amplifier',
         'level': 'yellow',
         'levelTitle': 'Intermediate Level',
     },
     {
-        'difficulty':'advanced',
+        'difficulty': 'advanced',
         'quizTitle': '5',
         'image': 'diode.jpeg',
         'imageTitle': 'diode circuit symbol and diagram description',
@@ -663,7 +662,7 @@ const menuOptions = [
         'levelTitle': 'Advanced Level',
     },
     {
-        'difficulty':'advanced',
+        'difficulty': 'advanced',
         'quizTitle': '6',
         'image': 'oscillator.jpeg',
         'imageTitle': 'circuit shcematic of a hartley oscillator',
@@ -674,24 +673,24 @@ const menuOptions = [
 
 class MainPage {
 
-    const 
+    const
 
-    constructor(quizList) {
-        // this.quizListContainer = document.getElementById('quizListContainer');
-        // quizList.forEach((quiz, index) => {
-        //     let btn = document.createElement("button");
-        //     btn.innerHTML = quiz.title;
-        //     btn.onclick = this.runQuiz;
-        //     btn.dataset.index = index;
-        //     this.quizListContainer.appendChild(btn);
-        // });
+        constructor(quizList) {
+            // this.quizListContainer = document.getElementById('quizListContainer');
+            // quizList.forEach((quiz, index) => {
+            //     let btn = document.createElement("button");
+            //     btn.innerHTML = quiz.title;
+            //     btn.onclick = this.runQuiz;
+            //     btn.dataset.index = index;
+            //     this.quizListContainer.appendChild(btn);
+            // });
 
-        /* document.getElementById("quizListContainer").onclick = function () {
-             location.href = "game.html";
-         }*/
+            /* document.getElementById("quizListContainer").onclick = function () {
+                 location.href = "game.html";
+             }*/
 
-         this.renderOptions();
-    }
+            this.renderOptions();
+        }
 
     renderOptions() {
         let output = '';
@@ -716,7 +715,7 @@ class MainPage {
         });
 
 
-        
+
 
         const container = document.getElementById('menuOptions');
         container.innerHTML = output;
@@ -724,8 +723,8 @@ class MainPage {
         let buttons = Array.from(document.getElementsByClassName('start-button'));
         buttons.forEach((button) => {
             button.addEventListener('click', () => {
-               /* document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
-                document.getElementById('quizContainer').classList.toggle('cs-hidden', false);*/
+                /* document.getElementById('menuContainer').classList.toggle('cs-hidden', true);
+                 document.getElementById('quizContainer').classList.toggle('cs-hidden', false);*/
                 document.getElementById('menuContainer').style.display = "none";
                 document.getElementById('heading').style.display = "none";
                 document.getElementById('quizContainer').style.display = "block";
