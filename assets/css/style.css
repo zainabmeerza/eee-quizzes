@@ -272,7 +272,7 @@ a {
 /* GAME CSS */
 .container {
 	background-color: #1e1e26;
-	/*padding-bottom: 900px;*/
+	padding-bottom: 900px;
 	height: 100vh;
 }
 
@@ -402,7 +402,7 @@ h1 {
 
 .quiz-end {
 	padding-top: 300px;
-	/*padding-bottom: 900px;*/
+	padding-bottom: 900px;
 	height: 100vh;
 	background-color: #1e1e26;
 	width: 100%;
