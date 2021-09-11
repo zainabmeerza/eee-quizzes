@@ -530,7 +530,7 @@ span{
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (width: 768px){
 	.container2{
 		height: 120vh;
 		margin-top: -700px;
