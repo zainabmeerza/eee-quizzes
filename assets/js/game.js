@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
@@ -752,4 +753,3 @@ $(document).ready(function () {
     });
 
 });
-
