@@ -272,7 +272,7 @@ a {
 /* GAME CSS */
 .container {
 	background-color: #1e1e26;
-	padding-bottom: 900px;
+	/*padding-bottom: 900px;*/
 	height: 100vh;
 }
 
@@ -402,7 +402,7 @@ h1 {
 
 .quiz-end {
 	padding-top: 300px;
-	padding-bottom: 900px;
+	/*padding-bottom: 900px;*/
 	height: 100vh;
 	background-color: #1e1e26;
 	width: 100%;
@@ -495,58 +495,6 @@ span {
 }
 
 /* MEDIA QUERIES */
-/*
-@media screen and (max-width: 320px){
-	#heading {
-		width: 65vh;
-	}
-
-	#main-title{
-		font-size: 2.2rem;
-	}
-
-	#main-subheading {
-		font-size: 1.3rem;
-		padding: 0px 17.5px 0px;
-	}
-
-	.container{
-		width: 465px;
-	}
-
-	#progressBar{
-		width: 20rem;
-		height: 2rem;
-	}
-
-	.container h3 {
-		padding: 3rem 1rem 2rem 4rem;
-	}
-
-	.choice-container{
-		min-width: 20rem;
-	}
-
-	.final-score i{
-		font-size: 1.5rem;
-	}
-
-	.final-score h2{
-		font-size: 1.5rem;
-	}
-
-	span{
-		font-size: 1.5rem;
-	}
-}
-
-@media screen and (width: 768px){
-	.container{
-		height: 120vh;
-		margin-top: -700px;
-		padding: 4rem 4rem 25rem 4rem;
-	}
-}*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
