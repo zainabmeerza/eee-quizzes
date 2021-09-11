@@ -127,6 +127,7 @@ a {
 
 .container2 {
 	width: 100%;
+	height: 100%;
 	/*background-color: #3e6b88;*/
 	background-color: rgb(18, 92, 255);
 	display: flex;
