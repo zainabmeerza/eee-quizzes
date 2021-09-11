@@ -486,7 +486,7 @@ span{
 }
 
 /* MEDIA QUERIES */
-@media screen and (width: 320px){
+@media screen and (min-width: 320px){
 	#heading {
 		width: max-content;
 	}
