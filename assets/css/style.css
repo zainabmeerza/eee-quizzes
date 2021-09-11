@@ -486,3 +486,46 @@ span{
 }
 
 /* MEDIA QUERIES */
+@media screen and (width: 320px){
+	#heading {
+		width: max-content;
+	}
+
+	#main-title{
+		font-size: 2.3rem;
+	}
+
+	#main-subheading {
+		font-size: 1.3rem;
+		padding: 0px 17.5px 0px;
+	}
+
+	.container{
+		width: 465px;
+	}
+
+	#progressBar{
+		width: 20rem;
+		height: 2rem;
+	}
+
+	.container h3 {
+		padding: 3rem 1rem 2rem 4rem;
+	}
+
+	.choice-container{
+		min-width: 20rem;
+	}
+
+	.final-score i{
+		font-size: 1.5rem;
+	}
+
+	.final-score h2{
+		font-size: 1.5rem;
+	}
+
+	span{
+		font-size: 1.5rem;
+	}
+}
