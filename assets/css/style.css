@@ -486,9 +486,9 @@ span{
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
 	#heading {
-		width: max-content;
+		width: 65vh;
 	}
 
 	#main-title{
