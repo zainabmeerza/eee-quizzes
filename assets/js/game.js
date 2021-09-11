@@ -7,7 +7,7 @@ class QuizGame {
         this.question = document.querySelector('#question');
         this.choices = Array.from(document.querySelectorAll('.choice-text'));
         this.progressText = document.querySelector('#progressText');
-        this.scoreText = document.querySelector('#score');
+        this.scoreText = document.querySelector('.score');
         this.progressBarFull = document.querySelector('#progressBarFull');
 
         this.currentQuestion = {}

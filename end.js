@@ -49,3 +49,4 @@ document.getElementById("save-score-form").addEventListener('submit', function(e
    /* window.location.assign('#')*/
     
 });
+
