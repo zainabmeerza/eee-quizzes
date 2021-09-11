@@ -244,7 +244,7 @@ a {
 
 .start_btn button {
 	font-size: 20px;
-	font-weight: 500px;
+	font-weight: 500;
 	color: rgb(18, 92, 255);
 	padding: 15px 30px;
 	outline: none;
@@ -281,7 +281,7 @@ a {
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6. 103, 247, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
     transform: scale(1.02);
     transform: transform 100ms;
 }
@@ -418,7 +418,7 @@ h1{
 
 .final-score a {
 	font-size: 20px;
-	font-weight: 500px;
+	font-weight: 500;
 	color: rgb(18, 92, 255);
 	padding: 15px 30px;
 	outline: none;
