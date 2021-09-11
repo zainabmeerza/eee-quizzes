@@ -397,11 +397,11 @@ h1{
 	padding-bottom: 220px;
 	background-color: #1e1e26;
 	width: 100%;
-	display: none;
-	
 }
 
-
+#end {
+	display: none;
+}
 
 
 .final-score {

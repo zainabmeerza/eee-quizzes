@@ -34,7 +34,7 @@ class QuizGame {
             document.getElementById('quizContainer').style.display = "none";
             document.getElementById('end').style.display = "block";
 
-            return window.location.assign('index.html');
+            return window.location.assign('#');
         }
 
        
