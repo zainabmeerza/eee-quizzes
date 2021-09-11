@@ -272,7 +272,7 @@ a {
 /* GAME CSS */
 .container {
 	background-color: #1e1e26;
-	padding-bottom: 700px;
+	padding-bottom: 900px;
 }
 
 .choice-container {
@@ -401,7 +401,7 @@ h1 {
 
 .quiz-end {
 	padding-top: 300px;
-	padding-bottom: 720px;
+	padding-bottom: 900px;
 	background-color: #1e1e26;
 	width: 100%;
 }
