@@ -266,7 +266,7 @@ a {
 /* GAME CSS */
 .container{
 	background-color: #1e1e26;
-	padding-bottom: 40px;
+	padding-bottom: 120px;
 }
 .choice-container{
     display: flex;
