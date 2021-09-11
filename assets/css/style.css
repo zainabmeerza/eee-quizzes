@@ -552,6 +552,10 @@ span {
 		width: max-content;
 	}
 
+	#heading i {
+		font-size: 1.9rem;
+	}
+	
 	#main-title {
 		font-size: 2rem;
 	}
