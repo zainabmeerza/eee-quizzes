@@ -281,6 +281,8 @@ Lighthouse is a testing tool featured as part of Google Chrome developer tools. 
 I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained are shown below. This showed that the color contrast on the project was weak and requires improvement.
 <img src="assets/images/WAVE-test.png">
 <br>
+<br>
+<br>
 <h1><strong>Deployment</strong></h1>
 This project was deployed via Gitpod. Using the git commands provided by Gitpod  the code was comitted to git, and then pushed onto GitHub.  It was then deployed onto the web using GitHub Pages.
 <br>
@@ -288,17 +290,18 @@ This project was deployed via Gitpod. Using the git commands provided by Gitpod 
 The following steps were carried out in order to deploy this project to GitHub Pages from its GitHub repository:
 <ol>
 <li>Log on to GitHub.</li>
-<li>Select <strong>istanbul-travel</strong> from the list of repositories.</strong></strong></li>
+<li>Select <strong>eee-quizzes</strong> from the list of repositories.</li>
 <li>Within the repository, select <strong>settings</strong> from the menu located ta the top of the page.</li>
 <li>Once directed to the settings, select <strong>Pages</strong> from the menu on the right-hand side of the settings.</li>
 <li>Next, within the source section select the <strong>Master branch</strong> from the drop-down and then click save. </li>
 <li>Wait for a few minutes whilst the website is being processed.</li>
 <li>A few minutes later, the page URL will be given above the source section which links to the live site. This looks like the following:
-<img src="assets/images/deployment.png">
+<br>
+<img src="assets/readmeimages/deployment.png">
 </ol>
 
 <h2>Run the website locally -</h2>
-TThe forking tool can be used to make changes onto the repository without affecting it. This will make a copy of the repository so that the original one remains unchanged. This is done by:
+The forking tool can be used to make changes onto the repository without affecting it. This will make a copy of the repository so that the original one remains unchanged. This is done by:
 <ol>
 <li>Selecting the project repository and then clicking on the green <strong>'code'</strong> button. </li>
 <li>Next, 'download ZIP' and extract this ZIP file onto your computer.</li>
@@ -332,8 +335,9 @@ The content for this website was obtained from several websites, which are liste
 <h2><strong>Media</strong></h2>
 All images used in the website across all pages were obtained from <a href="https://unsplash.com/s/photos/istanbul">Unsplash.</a>
 <br>
-The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons/turkey">Flat Icon.</a>
+The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons">Flat Icon.</a>
 <br>
+The bulb and arrow icons used accross the page were obtained from <a href="https://fontawesome.com/">Font Awesome.</a>
 
 
 <h2><strong>Code</strong></h2>
