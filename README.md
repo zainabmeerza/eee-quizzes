@@ -199,11 +199,9 @@ This project is based on HTML and CSS programming languages. Several technologie
     <br>
     <ul>
     <li></li>
-    <li></li>
-    <li></li>
     </ul>
     <br>
-<img src="assets/readmeimages/">
+<img src="assets/readmeimages/heading.png">
     <br>
 <li>As a student, I would like a wide range of questions that cover a variety of difficulties and topics relating to the subject.</li>
     <br>
@@ -212,18 +210,20 @@ This project is based on HTML and CSS programming languages. Several technologie
     </li>
     </ul>
     <br>
-<img src="assets/images/attractions.png">
+<img src="assets/readmeimages/main-menu.png">
 <br>
 <li>As a student, I would like to know if the question I have answered is correct or incorrect.</li>
 <br>
     <ul>
-        <li> </li>
+        <li></li>
         <li></li>
     </ul>
     <br>
-<img src="assets/images/signup.png">
+<img src="assets/readmeimages/correct-answer.png">
 <br>
-<img src="assets/images/form.png">
+<br>
+<img src="assets/readmeimages/incorrect-answer.png">
+<br>
 <br>
 <li>As a student, I would like to know how many questions I have left whilst taking the quiz. </li>
 <br>
@@ -232,9 +232,8 @@ This project is based on HTML and CSS programming languages. Several technologie
         <li></li>
     </ul>
 <br>
-<img src="assets/images/videos.png">
+<img src="assets/readmeimages/progress-bar.png">
 <br>
-<img src="assets/images/map.png">
 <br>
 
 <li>As a student, I would want to be able to exit the selected quiz and choose another quiz instead, without having to complete the current quiz that I am on. </li>
@@ -244,19 +243,22 @@ This project is based on HTML and CSS programming languages. Several technologie
     <li></li>
 </ul>
 <br>
-<img src="assets/images/lodging.png">
-<br>
-<img src="assets/images/dining.png">
+<img src="assets/readmeimages/return-button.png">
 <br>
 <li>As a teacher, I would like some interactive and enaging material to use in class activities. </li>
 <br>
     <ul><li></li>
     </ul>
-<br>
-<img src="assets/images/gallery.png">
+
 <br>
 <li>As a student, I would like to know the final score that I have achieved. </li>
+<br>
+<img src="assets/readmeimages/final-score.png">
+<br>
 <li>As a user, I would like to directly go back to the main menu once I complete a quiz.</li>
+<br>
+<img src="assets/readmeimages/main-button.png">
+<br>
 </ol>
 <br>
 <h2><strong>HTML Validation</strong></h2>
