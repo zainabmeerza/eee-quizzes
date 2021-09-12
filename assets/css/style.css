@@ -507,11 +507,13 @@ span {
 
 	#main-title {
 		font-size: 1.9rem;
+		margin-left: 3rem;
 	}
 
 	#main-subheading {
 		font-size: 1.3rem;
 		padding: 0px 19px 0px;
+		width: 310px;
 	}
 
 	.container {
