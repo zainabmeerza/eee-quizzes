@@ -56,22 +56,24 @@ An essential part is to define who the target users of this website would be,and
 <strong>This project will help these users by:</strong>
 <ul>
 <li>Providing a clear menu of quizzes that would be easy for them to navigate through.</li>
-<li>Showing a selection of different quizzes that vary in difficulty and  </li>
-<li></li>
-<li></li>
-<li></li>
+<li>Showing a selection of different quizzes that vary in difficulty and in topics. </li>
+<li>Preview a diagram for each quiz relating to the topic.</li>
+<li>Indicates whether they have answered the question correctly or incorrectly.</li>
+<li>Provides them with a score on how well they have done on the quiz.</li>
 </ul>
 
 <br>
 
 <strong>User stories:</strong>
 <ol>
-<li>As a first time visitor to the site, I would like to be able to navigate eaily throughtout the site and find the relevant information I need. </li>
-<li>As a first time tourist, I would like some reliable recommendations of where I should visit, which restraunts I should go eat in, and where I can accommodate during my stay that fits in with my budget.</li>
-<li>As a returning visitor to the site, I would like to stay updated with the latest events, trips, tours and festivals that are possibly taking place during the time of my visit to Istanbul.</li>
-<li>As a first time traveller to Istanbul, I would like to know some background information as to what I should expect from this city and what it is popular and known for. </li>
-<li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
-<li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
+<li>As a first time visitor to the site, I would like to be able to navigate easily throughout the site and understand what it is for. </li>
+<li>As a student, I would like a wide range of questions that cover a variety of difficulties and topics relating to the subject. </li>
+<li>As a student, I would like to know if the question I have answered is correct or incorrect.</li>
+<li>As a student, I would like to know how many questions I have left whilst taking the quiz. </li>
+<li>As a student, I would want to be able to exit the selected quiz and choose another quiz instead, without having to complete the current quiz that I am on. </li>
+<li>As a teacher, I would like some interactive and enaging material to use in class activities. </li>
+<li>As a student, I would like to know the final score that I have achieved. </li>
+<li>As a user, I would like to directly go back to the main menu once I complete a quiz. </li>
 </ol>
 
 <h2><strong>Scope</strong></h2>
