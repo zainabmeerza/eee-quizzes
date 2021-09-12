@@ -198,7 +198,7 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li>As a first time visitor to the site, I would like to be able to navigate easily throughout the site and understand what it is for. </li>
     <br>
     <ul>
-    <li></li>
+    <li>The subheading in the page header states the main objective of the website; which is for the visitor to test their knowledge in the field of electronics and electrical engineering. This is placed right above the main menu.</li>
     </ul>
     <br>
 <img src="assets/readmeimages/heading.png">
@@ -206,8 +206,10 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li>As a student, I would like a wide range of questions that cover a variety of difficulties and topics relating to the subject.</li>
     <br>
     <ul>
-    <li>
+    <li>The main menu is made up of a slide of quiz containers. Each container had a quiz title, and quiz cover photo which indicates what the quiz topic is related to.
     </li>
+    <li>There is also a a difficulty level indicator on each quiz to let the user know which quiz would be more suitable to them.</li>
+    <li>At the bottom of the container, a large and clear START button is added. By clicking on this the user will be redirected to the questions allocated for the specific quiz that they selected. </li>
     </ul>
     <br>
 <img src="assets/readmeimages/main-menu.png">
@@ -215,21 +217,24 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li>As a student, I would like to know if the question I have answered is correct or incorrect.</li>
 <br>
     <ul>
-        <li></li>
-        <li></li>
+        <li>Initially the answer choices buttons are blue. When the user selects an answer and it is correct, the container flashes green.</li>
     </ul>
     <br>
 <img src="assets/readmeimages/correct-answer.png">
 <br>
 <br>
+    <ul>
+        <li> When the user selects an answer and it is incorrect, the container flashes red.</li>
+    </ul>
 <img src="assets/readmeimages/incorrect-answer.png">
 <br>
 <br>
 <li>As a student, I would like to know how many questions I have left whilst taking the quiz. </li>
 <br>
     <ul>
-        <li></li>
-        <li></li>
+        <li>Above the question, a green progress bar is displayed. This progress bar accelerates by a step each time a question is answered, letting the user know how far into the quiz they are on.</li>
+        <br>
+        <li>Additionally, there is a label above this progress bar which states the question number out of the total number of questions.</li>
     </ul>
 <br>
 <img src="assets/readmeimages/progress-bar.png">
@@ -240,23 +245,31 @@ This project is based on HTML and CSS programming languages. Several technologie
 
 <br>
 <ul>
-    <li></li>
+    <li>If the user would like to exit their current quiz (as they may have found it not suitable) they are able to go back to the main menu and select another quiz, without having to fully complete answering all 10 questions.</li>
 </ul>
 <br>
 <img src="assets/readmeimages/return-button.png">
 <br>
 <li>As a teacher, I would like some interactive and enaging material to use in class activities. </li>
 <br>
-    <ul><li></li>
+    <ul><li>This website provides knowledge in a way that requires continous input and engagement from the user in order to function. </li>
     </ul>
 
 <br>
 <li>As a student, I would like to know the final score that I have achieved. </li>
 <br>
+<ul>
+<li>Once the last question has been answered, the page gets directed to a final score page, which shows the user how many points they managed to get correct out of the total value. </li>
+    </ul>
+    <br>
 <img src="assets/readmeimages/final-score.png">
 <br>
 <li>As a user, I would like to directly go back to the main menu once I complete a quiz.</li>
 <br>
+<ul>
+<li>Right below the final score reveal, a large button that directs you to main menu is displayed. This will then allow you to select another quiz.</li>
+    </ul>
+    <br>
 <img src="assets/readmeimages/main-button.png">
 <br>
 </ol>
@@ -270,16 +283,28 @@ No errors were identified but four warnings were brought up and so the HTML was 
 <br>
 <img src="assets/readmeimages/HTML-test.png">
 <br>  
-<br>
 <h2><strong>CSS Validation</strong></h2>
 I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation</a> to check the validity of my CSS code. Several issues were identified using this tool.
-<br>
 <br>
 Four errors were identified, and so the CSS was adjusted accordingly to improve on the errors. The <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/css/style.css" target="_blank"> style.css</a> file was validated with no errors as this was the CSS file written by me. The other CSS file was borrowed as part of JQuery, hence has no errors but some warnings.
 <br>
 <br>
 <img src="assets/readmeimages/CSS-test.png">
 <br>
+<br>
+<h2><strong>JS Validation</strong></h2>
+No errors were found when passing through the official <a href="https://jshint.com/" target="_blank"> Jshint validator. </a>
+<br>
+The following metrics were returned: 
+<li>There are 4 functions in this file.</li>
+
+<li>Function with the largest signature take 1 arguments, while the median is 0.</li>
+
+<li>Largest function has 12 statements in it, while the median is 3.</li>
+
+<li>The most complex function has a cyclomatic complexity value of 3 while the median is 1.</li>
+
+
 <br>
 <h2><strong>Light House</strong></h2>
 Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially the page achieved a very low score in performance and this was because of the high quality images used in the main menu that was not needed. To improve the performance, they were replaced with images of smaller sizes and this improved the performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores.
