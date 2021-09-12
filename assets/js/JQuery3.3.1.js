@@ -12,6 +12,7 @@
  *
  * Date: 2018-01-20T17:24Z
  */
+/* CODE BORROWED */
 ( function( global, factory ) {
 
 	"use strict";

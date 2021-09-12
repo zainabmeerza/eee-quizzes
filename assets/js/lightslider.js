@@ -1,3 +1,5 @@
+/* CODE BORROWED FROM JQUERY */
+
 (function ($, undefined) {
     'use strict';
     var defaults = {
