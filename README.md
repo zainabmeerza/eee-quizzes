@@ -272,13 +272,15 @@ I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Va
 And so the HTML was adjusted accordingly to improve on the errors. 
 <br>
 <h2><strong>Light House</strong></h2>
-Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially my Gallery and Attractions page achieved a very low score in performance and this was because of the unecissarily high quality of images that I was using. Hence to improve the performance I replaced the images with smaller size and this improved my performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores (apart from the best practices on the home page, this was due to the 3 iframe elements I used with embedded links).
+Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially the page achieved a very low score in performance and this was because of the high quality images used in the main menu that was not needed. To improve the performance, they were replaced with images of smaller sizes and this improved the performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores.
 <br>
-<h3>Results of light house testing on the single page created:</h3>
+<br>
+<h3>Results of Light House testing on the single page created:</h3>
 <img src="assets/readmeimages/light-house.png">
 
 <h2><strong>WAVE Web Accessibility Evaluation</strong></h2>
-I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained are shown below. This showed that the color contrast on the project was weak and requires improvement.
+I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained from this test are shown below. This showed that the color contrast on the project was weak and coulb be improvement in tthe future. 
+<br>
 <img src="assets/readmeimages/WAVE-test.png">
 <br>
 <br>
