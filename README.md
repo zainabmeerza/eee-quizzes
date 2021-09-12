@@ -114,16 +114,9 @@ The website consits of one single page, it consists of 3 sections that are not d
 <h3>The wireframe mockups for the landing page:</h3>
 <a href="" target="_blank" >Landing Page - Desktop View</a> 
 <br>
-<a href="" target="_blank" >Landing Page - Mobile View</a> 
-<br>
 <a href="" target="_blank" >Quiz Page - Desktop View</a> 
 <br>
-<a href="" target="_blank" >Quiz Page - Mobile View</a> 
-<br>
 <a href="" target="_blank" >Final Score Page - Desktop View</a> 
-<br>
-<a href="" target="_blank" >Final Score Page - Mobile View</a> 
-
 <br>
 <br>
 
