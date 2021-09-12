@@ -279,7 +279,7 @@ Lighthouse is a testing tool featured as part of Google Chrome developer tools. 
 
 <h2><strong>WAVE Web Accessibility Evaluation</strong></h2>
 I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained are shown below. This showed that the color contrast on the project was weak and requires improvement.
-<img src="assets/images/WAVE-test.png">
+<img src="assets/readmeimages/WAVE-test.png">
 <br>
 <br>
 <br>
