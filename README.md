@@ -333,23 +333,22 @@ The content for this website was obtained from several websites, which are liste
 </ul>
 
 <h2><strong>Media</strong></h2>
-All images used in the website across all pages were obtained from <a href="https://unsplash.com/s/photos/istanbul">Unsplash.</a>
-<br>
-The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons">Flat Icon.</a>
-<br>
-The bulb and arrow icons used accross the page were obtained from <a href="https://fontawesome.com/">Font Awesome.</a>
+<ul>
+<li>All images used in the website were obtained from <a href="https://www.electronics-tutorials.ws">Electronic Tutorials.</a></li>
 
+<li>The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons">Flat Icon.</a></li>
 
+<li>The bulb and arrow icons used accross the page were obtained from <a href="https://fontawesome.com/">Font Awesome.</a></li>
+</ul>
 <h2><strong>Code</strong></h2>
 The following resources were used within the code and contributed to parts of the CSS, HTML and JS for this website.
 <ol>
 
-
-
-<li>The main menu slider was created using JQuery<a href="http://sachinchoolur.github.io/lightslider/"></a> This provided the content for two of the JS files: h </li>
+<li>The main menu slider (LightSlider) was created using <a href="http://sachinchoolur.github.io/lightslider/">JQuery.</a> Using this source, the code was borrowed which provided the entire contents for two of the JS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/JQuery3.3.1.js">JQuery3.3.1.js </a> and <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/lightslider.js"> lightslider.js</a><br>and provided the entire content of one of the CSS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/css/lightslider.css">lightslider.css </a></li>
 
 </ol>
 
 
 <h1><strong>Acknowledgements</strong></h1>
+
 I would like to extend my thanks to my course mentor Guido Cecilio for his feedback and guidance throughout the course of this project. His support and advice during our meetings helped me advance this project into the right direction. 
