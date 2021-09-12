@@ -274,16 +274,9 @@ And so the HTML was adjusted accordingly to improve on the errors.
 <h2><strong>Light House</strong></h2>
 Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially my Gallery and Attractions page achieved a very low score in performance and this was because of the unecissarily high quality of images that I was using. Hence to improve the performance I replaced the images with smaller size and this improved my performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores (apart from the best practices on the home page, this was due to the 3 iframe elements I used with embedded links).
 <br>
-<h3>Results of light house testing on the home page:</h3>
-<img src="assets/images/lighthouse-index.png">
-<h3>Results of light house testing on the attractions page:</h3>
-<img src="assets/images/lighthouse-attractions.png">
-<h3>Results of light house testing on the Lodging page:</h3>
-<img src="assets/images/lighthouse-lodging.png">
-<h3>Results of light house testing on the Gallery page:</h3>
-<img src="assets/images/lighthouse-gallery.png">
-<h3>Results of light house testing on the Form page:</h3>
-<img src="assets/images/lighthouse-form.png">
+<h3>Results of light house testing on the single page created:</h3>
+<img src="assets/readmeimages/light-house.png">
+
 <h2><strong>WAVE Web Accessibility Evaluation</strong></h2>
 I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained are shown below. This showed that the color contrast on the project was weak and requires improvement.
 <img src="assets/images/WAVE-test.png">
@@ -341,10 +334,7 @@ All images used in the website across all pages were obtained from <a href="http
 <br>
 The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons/turkey">Flat Icon.</a>
 <br>
-The two videos on the home page were taken from <a href="https://www.youtube.com/">YouTube</a> using an embedded <em>iframe</em> link.
-<br>
-The map on the home page is taken from <a href="https://www.google.com/maps/place/%C4%B0stanbul,+Turkey/@41.0055005,28.7319939,10z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589"> Google Maps </a> using an embedded <em>iframe</em> link.
-<br>
+
 
 <h2><strong>Code</strong></h2>
 The following resources were used within the code and contributed to parts of the CSS, HTML and JS for this website.
