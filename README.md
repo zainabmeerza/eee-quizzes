@@ -13,7 +13,7 @@ Interactive Frontend Development</h2>
 
 <p>This image is produced using the tool from <a href="http://ami.responsivedesign.is/#" target="_blank">Am I Responsive</a></p>
 
-<p>This website is created to provide students and teachers with educational resources that may help them for revision or in class. It can also be useful to anyone who has an interest in learning about electronics and electrical circuits as a hobby. It provides them with
+<p>This website is created to provide students and teachers with educational resources that may help them for revision, class learning activities or even homework. It can be useful to any user who has an interest in learning about electronics and electrical circuits as a hobby. It provides them with a variety of quizzes, of different difficulties that cover a range of different topics. 
  </p>
 
 The website is divided into the following sections listed below:
@@ -25,47 +25,43 @@ The website is divided into the following sections listed below:
 
 <h3><strong>The business goals of this website are the following:</strong></h3>
     <ul>
-        <li>To allow hotels and resorts to advertise and promoting their accomadtion services. </li>
-        <li>To allow local Turkish businesses to promote their goods and products to tourists.</li>
-        <li>To allow restraunts and other hospitality services to advertise their services to potential visitors.</li>
-        <li>To provide a platform for freelancing photographers to share their photos of Istanbul in order to gain exposure.</li>
-        <li>To promote festivals, tours, concerts and shows that may be upcoming in Istanbul.</li>
+        <li>
+        To provide an educational learning platform for students. </li>
+        <li>To provide teachers and schools leaarning resources for classroom activities</li>
+        <li>To create a user friendly and easy to navigate website.</li>
     </ul>
 
 <h3><strong>The customer goals of this website are the following:</strong></h3>
  <ul>
-        <li>Search for a reliable and updated source which provide users with trustworthy recommendations on places to visit.</li>
-        <li>Be inspired, encouraged and excited to plan a trip to Istanbul.</li>
-        <li>To find out more information on the city of Istanbul, and the variety of activites that are available to do there. </li>
-        <li>To be able to sign up to recieve upcoming events, offers, and latest news via a newsletter.</li>
-        <li>To find a selection of trustworthy recommendations for restraunts, hotels and markets.</li>
+        <li>To have a reliable and interactive platform which is enaging the user whilst studying. </li>
+        <li>To let the user briefly determine their level of knowledge on electrical circuits.</li>
+        <li>To learn new information by acknowledging which questions were answered correctly or incorrectly. </li>
 </ul>
 
 <h1><strong>UX</strong></h1>
 
 <h2><strong>Strategy</strong></h2>
-The strategy approach for this site was to provide reputable trustworthy  content that users would be able to rely on for guidance. Additionally ease of access and simplicity was important to allow users to find the specifc information that they require to help plan their trips. Promoting users to travel to Istanbul and making it on their top list of travel choices was also the aim. 
-
+The strategy approach for this site was to provide a variety of different quizzes that users would be able to intereact with to gain exposure to a wide range of topics within this subject area. Additionally ease of access and simplicity was important to allow users to navigate through clearly.
+<br>
 An essential part is to define who the target users of this website would be,and to consider what features they would like to see.
 
 <strong>The ideal users of this website would be:</strong>
 <ul>
-<li>People (such as tourists) intertested in visiting Istanbul, Turkey. </li>
-<li>Families and groups looking to book a holiday. </li>
-<li>Backpacking travellers.</li>
-<li>First time travellers to Turkey. </li>
+<li>Students studying physics, electrical or electronics engineering. </li>
+<li>Students interested in electronics and electrical circuits. </li>
+<li>Teachers looking for engaging class activities and homework.</li>
+<li>Students that would like to test and improve their knowledge on how electrical circuits operate. </li>
 </ul>
 
 <strong>This project will help these users by:</strong>
 <ul>
-<li>Providing a clear and concise guide that would be easy for them to navigate and focuses on important details.</li>
-<li>Showing a selection of beautiful photos that will motivate and encourage travellers to visit, and help promote the city and make it seem as the more desirable choice. </li>
-<li>Providing a list of the best sightseeing destinations and a brief background of these places.</li>
-<li>Giving the users recommencedation of where to eat and stay during their trip.</li>
-<li>Allowing them to subscribe to a newsletter that will keep them updated with the latest events and email them a downloadable travel guide brochure</li>
+<li>Providing a clear menu of quizzes that would be easy for them to navigate through.</li>
+<li>Showing a selection of different quizzes that vary in difficulty and  </li>
+<li></li>
+<li></li>
+<li></li>
 </ul>
 
-The information was kept as minimal as possible in order to not overwhelm users, but instead focus more on making it seem more visually appealing. Hence including several forms of media (pop-up modal images, videos, maps, carousels) that they could interact with rather than just lots of text.
 <br>
 
 <strong>User stories:</strong>
@@ -80,19 +76,36 @@ The information was kept as minimal as possible in order to not overwhelm users,
 
 <h2><strong>Scope</strong></h2>
 To achieve the desired user & business goals, the following features have been included in this project release:
-<ul>
-<li>A header containing the logo, title and menu bar to easily navigate across the pages.</li>
-<li>A home page which introduces the user to what the website is about.</li>
-<li>Videos that will provide the user with more insight as to what to expect from Istanbul in terms of views, landscapes and culture.</li>
-<li>An interacive map of the city which will highlight the famous places to visit</li>
-<li>A link to a simple subscription form that will update users with the upcoming events through email and a downloadable trave guide brochure.</li>
-<li>Ratings and recommendations of places to eat and stay in.</li>
-<li>A gallery of images that will present users with appealing visuals that would further enourage them to plan their trip.</li>
-<li>A footer containing quick links to the pages of the site, and to the social media links.</li>
-</ul>
+<br>
+<br>
+<ol>
+<li> A landing page:</li>
+    <ul>
+        <li>A header containing the title of the page </li>
+        <li>A Main Menu with an interactive slider to select a quiz.</li>
+        <li>A diagram for each quiz that is related to the topic   of that specific quiz.</li>
+        <li>Each quiz has a level of difficulty specified.</li>
+        <li>A clear start button on each quiz.</li>
+    </ul>
+    <br>
+<li> A quiz page:</li>
+    <ul>
+    <li>A progress bar indicating the current question.</li>
+    <li>A back to main menu button.</li>
+    <li>10 questions and 4 multiple choice answers to choose from for each question </li>
+    </ul>
+    <br>
+<li> A final score page: </li>
+    <ul>
+        <li>The user's final score</li>
+        <li>Back to main menu button</li>
+    </ul>
+ </ol>
 
 <h2><strong>Structure</strong></h2>
-This website is made up of 6 pages in total (however only 4 have been completed with content. It includes a responsive navigation bar at the top that allows users to easily navigate across their section of interest. The flow of the website is in the following order; Home to introduce the users to the purpose of the site, next, attractions to sight see that cannot be passed, then places to stay in, restraunts to eat in, and finally ends it off with a gallery of images and a subsription form for users who are interseted in future events.
+This website is made up of 3 sections; the main menu, the quiz, and the final score. All these 3 sections were created on one single HTML page; and hence the website is made up of 1 page in total. Using CSS and JS, I was able to only display one section at a time and keep the other two hidden. The website landing page displays the main menu whilst keeping the quiz questions and final score reveal hidden. In the event that a quiz start button is clicked, the main menu is set to hidden, the quiz questions is set to display whilst the final score reveal remains hidden. Once the last question on the quiz has been answered, the quiz questions is set to hidden and the final score reveal is set to display. <br><br>
+Therefore the flow of this website goes from main menu, to quiz, to final score and back to main menu. The website has 6 quizzes in total to choose from, where each quiz is made up of 10 questions and four possible answer buttons. The website is responsive across several devices.
+<br><br>
 
 <h2><strong>Skeleton</strong></h2>
 
@@ -286,7 +299,6 @@ I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is
 <br>
 <br>
 <img src="assets/readmeimages/WAVE-test.png">
-<br>
 <br>
 <br>
 <h1><strong>Deployment</strong></h1>
