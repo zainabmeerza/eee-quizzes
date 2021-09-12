@@ -267,9 +267,9 @@ And so the HTML was adjusted accordingly to improve on the errors.
 <br>
 <h2><strong>CSS Validation</strong></h2>
 I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation</a> to check the validity of my CSS code. Several issues were identified using this tool.
-<h3>Six errors were identified, these were:</h3>
+<h3>Four errors were identified, these were:</h3>
 <img src="assets/images/css-errors.png">
-And so the HTML was adjusted accordingly to improve on the errors. 
+And so the CSS was adjusted accordingly to improve on the errors. 
 <br>
 <h2><strong>Light House</strong></h2>
 Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially the page achieved a very low score in performance and this was because of the high quality images used in the main menu that was not needed. To improve the performance, they were replaced with images of smaller sizes and this improved the performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores.
