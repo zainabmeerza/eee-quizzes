@@ -135,30 +135,42 @@ To stand out when hovering over links/buttons the color changes from white to bl
 
 
 <h1><strong>Features</strong></h1>
-<h2><strong>Main Menu</strong></h2>
+<h2><strong>Main Menu Page </strong></h2>
+<br>
+    <strong>Title</strong> 
+    <br>
+    <strong>Subheading</strong> Which states the main purpose of the website.
+    <br>
+    <strong>Main Menu Slider:</strong> With the quiz containers listed.
+    <br>
+    <strong>Quiz selection</strong> 
+    <br>
+     <strong>Quiz Cover Diagram: </strong> Relates to quiz topic.
+     <br>
+     <strong>Quiz Difficulty Ratings:</strong>Beneath each quiz, provides and indicator on the quiz difficulty.<br>
+     <strong>Start Quiz buttons:</strong> Directs you to the chosen quiz.
+<br>
+<br>
+<h2><strong>Quiz Questions Page</strong></h2>
+     <strong>Return to Main Menu Button</strong> 
+    <br>
+    <strong>Question number Indicator</strong> 
+    <br>
+    <strong>Progress Bar</strong> 
+    <br>
+    <strong>Quiz Question</strong> 
+    <br>
+     <strong>4 containers containing the 4 multiple choice answers. 
 
 <br>
 <br>
-<h2><strong>Quiz Cover Image</strong></h2>
+<h2><strong>Final Score Page</strong></h2>
+    <strong>The scored points out of the total.</strong> 
+    <br>
+    <strong>A direct link/button back to the main menu.</strong> 
+<br>
+<br>
 
-<br>
-<br>
-<h2><strong>Quiz Difficulty Level</strong></h2>
- 
-<br>
-<br>
-<h2><strong>"Start" Buttons</strong></h2>
-
-<br>
-<br>
-<h2><strong>"Back to Main Menu" Button </strong></h2>
-
- <br>
- <br>
-<h2><strong>Question Indicator + Progress Bar </strong></h2>
-
-<br>
-<br>
 <h1><strong>Features to Implement in the future:</strong></h1>
 Due to limited time, skills and scope of knowledge, there are several features and widgets I would hope to also implement in a future release of this project. These inlude:
 <br>
