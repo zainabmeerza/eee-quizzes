@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-const SCORE_POINTS = 100;
+const SCORE_POINTS = 1;
 const MAX_QUESTIONS = 10;
 
 class QuizGame {
