@@ -189,6 +189,7 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> - This tool was used to check the validity of the CSS documents of this project. </li>
 <li><a href="http://ami.responsivedesign.is/" target="_blank">Am I Responsive</a> - Was used to generate a repsonive image; displaying how the website would look on different devices. </li>
 <li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a> - Tool used to detect any accessibility issues within the website to help further improve it.</li>
+<li><a href="http://sachinchoolur.github.io/lightslider//" target="_blank">JQuery lightslider</a> - A lightweight responsive content slider with carousel thumbnails navigation from the Jquery library.</li>
 </ul>
 
 <h1><strong>Testing</strong></h1>
