@@ -11,11 +11,11 @@ class QuizGame {
         this.scoreText = document.querySelector('.score');
         this.progressBarFull = document.querySelector('#progressBarFull');
 
-        this.currentQuestion = {}
-        this.acceptingAnswers = true
-        this.score = 0
-        this.questionCounter = 0
-        this.availableQuestions = []
+        this.currentQuestion = {};
+        this.acceptingAnswers = true;
+        this.score = 0;
+        this.questionCounter = 0;
+        this.availableQuestions = [];
         this.questions = questions;
         this.addEventListener();
     }
@@ -42,20 +42,20 @@ class QuizGame {
 
         this.questionCounter++
         this.progressText.innerText = `Question ${this.questionCounter} of ${MAX_QUESTIONS}`;
-        this.progressBarFull.style.width = `${(this.questionCounter / MAX_QUESTIONS) * 100}%`
+        this.progressBarFull.style.width = `${(this.questionCounter / MAX_QUESTIONS) * 100}%`;
 
-        const questionsIndex = Math.floor(Math.random() * this.availableQuestions.length)
-        this.currentQuestion = this.availableQuestions[questionsIndex]
-        this.question.innerText = this.currentQuestion.question
+        const questionsIndex = Math.floor(Math.random() * this.availableQuestions.length);
+        this.currentQuestion = this.availableQuestions[questionsIndex];
+        this.question.innerText = this.currentQuestion.question;
 
         this.choices.forEach(choice => {
-            const number = choice.dataset['number']
-            choice.innerText = this.currentQuestion['choice' + number]
+            const number = choice.dataset.number;
+            choice.innerText = this.currentQuestion['choice' + number];
         })
 
-        this.availableQuestions.splice(questionsIndex, 1)
+        this.availableQuestions.splice(questionsIndex, 1);
 
-        this.acceptingAnswers = true
+        this.acceptingAnswers = true;
     }
 
     addEventListener() {
@@ -65,7 +65,7 @@ class QuizGame {
 
                 this.acceptingAnswers = false;
                 const selectedChoice = e.target;
-                const selectedAnswer = selectedChoice.dataset['number'];
+                const selectedAnswer = selectedChoice.dataset.number;
 
                 let classToApply = selectedAnswer == this.currentQuestion.answer ? 'correct' : 'incorrect';
 

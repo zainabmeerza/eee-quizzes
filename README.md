@@ -136,7 +136,6 @@ To stand out when hovering over links/buttons the color changes from white to bl
 
 <h1><strong>Features</strong></h1>
 <h2><strong>Main Menu Page </strong></h2>
-<br>
     <strong>Title</strong> 
     <br>
     <strong>Subheading</strong> Which states the main purpose of the website.
