@@ -58,7 +58,7 @@ class QuizGame {
         this.acceptingAnswers = true;
     };
 
-    addEventListener() {
+    addEventListener() {;
         this.choices.forEach(choice => {
             choice.addEventListener('click', e => {
                 if (!this.acceptingAnswers) return;
@@ -87,7 +87,7 @@ class QuizGame {
         this.score += num;
         this.scoreText.innerText = this.score;
 
-    }
+    };
 
 }
 
