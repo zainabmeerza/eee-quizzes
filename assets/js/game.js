@@ -58,7 +58,7 @@ class QuizGame {
         this.acceptingAnswers = true;
     };
 
-    addEventListener() {;
+    addEventListener() {
         this.choices.forEach(choice => {
             choice.addEventListener('click', e => {
                 if (!this.acceptingAnswers) return;
