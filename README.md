@@ -160,17 +160,20 @@ To stand out when hovering over links/buttons the color changes from white to bl
 <br>
 <br>
 <h1><strong>Features to Implement in the future:</strong></h1>
-Due to limited time I was unable to include content in the lodging and dining pages as I planned to do so. Furthermore, due to my limited skills and scope of knowledge, there are several features and widgets I would hope to also implement in a future release of this project. These inlude:
+Due to limited time, skills and scope of knowledge, there are several features and widgets I would hope to also implement in a future release of this project. These inlude:
+<br>
 <ul>
-<li>Embedded weather widgets that would let the user know about the current weather conditions in Istanbul.</li>
-<li>A lodging section filled with a list of hotels, hostels, resorts, B&B's that can be sorted according to their rating, availability, room type, number of guests, and price range. It will also include images and customer reviews. </li>
-<li>A dining section filled with a list of restraunts, cafes, bakeries that can be sorted according to their rating and region. It will also include images and customer reviews. </li>
-<li>An FAQ section with commonly asked questions to address some tips and advice to users planning on travelling to Istanbul.</li>
-<li>A page advertising the latest and upcoming events in Istanbul such as concerts and festivals. This will include adverts from several business companies.</li>
-<li>A page that includes a list of experiences, such as day trips, cruises, ferry rides, museum visits, etc. This will also inlcude ticket information, prices, booking information, and opening times. </li>
-<li>A section with pre-planned itentaires that can be downloaded as a PDF file and printed out for users to follow.</li>
-<li>The option to chose the language of the site. As this is a travel website, customers from a wide range of backgrounds, cultures and countries are expected to be browsing, and hence being able to tailor the language to their needs can help improve their accessibility.</li>
-<li>The option to change currency options when viewing ticket prices or hotel prices.</li>
+<li>A larger range of topics for quizzes.</li>
+<li>The option to email the user their quiz results and how they performed on each question.</li>
+<li>Introduce a timer to have timed quizzes.</li>
+<li>Add a restart/replay quiz feature.</li>
+<li>Add a leaderboard of the high scores.</li>
+<li>An interactive forum where students are able to post questions and get answers from the community. </li>
+<li> A section for relevant study material that can support the quizzes; such as videos, notes, flashcards etc.</li>
+<li>Introduce different types of quizzes that are not just multiple choice but will require a text input/answer.</li>
+<li>Add some downloadable pdf tutorials and worksheets that can also be used as study material.</li>
+<li>Possibly make some longer quizzes that have more than 10 questions</li>
+<li>Add some questions with diagrams rather than just text-based questions. </li>
 </ul>
 
 <h1><strong>Technologies Used</strong></h1>
@@ -203,6 +206,7 @@ This project is based on HTML and CSS programming languages. Several technologie
     <br>
 <img src="assets/readmeimages/heading.png">
     <br>
+    <br>
 <li>As a student, I would like a wide range of questions that cover a variety of difficulties and topics relating to the subject.</li>
     <br>
     <ul>
@@ -213,6 +217,7 @@ This project is based on HTML and CSS programming languages. Several technologie
     </ul>
     <br>
 <img src="assets/readmeimages/main-menu.png">
+<br>
 <br>
 <li>As a student, I would like to know if the question I have answered is correct or incorrect.</li>
 <br>
@@ -226,6 +231,7 @@ This project is based on HTML and CSS programming languages. Several technologie
     <ul>
         <li> When the user selects an answer and it is incorrect, the container flashes red.</li>
     </ul>
+    <br>
 <img src="assets/readmeimages/incorrect-answer.png">
 <br>
 <br>
@@ -250,6 +256,7 @@ This project is based on HTML and CSS programming languages. Several technologie
 <br>
 <img src="assets/readmeimages/return-button.png">
 <br>
+<br>
 <li>As a teacher, I would like some interactive and enaging material to use in class activities. </li>
 <br>
     <ul><li>This website provides knowledge in a way that requires continous input and engagement from the user in order to function. </li>
@@ -263,6 +270,7 @@ This project is based on HTML and CSS programming languages. Several technologie
     </ul>
     <br>
 <img src="assets/readmeimages/final-score.png">
+<br>
 <br>
 <li>As a user, I would like to directly go back to the main menu once I complete a quiz.</li>
 <br>
@@ -294,6 +302,7 @@ Four errors were identified, and so the CSS was adjusted accordingly to improve 
 <br>
 <h2><strong>JS Validation</strong></h2>
 No errors were found when passing through the official <a href="https://jshint.com/" target="_blank"> Jshint validator. </a>
+<br>
 <br>
 The following metrics were returned: 
 <li>There are 4 functions in this file.</li>
