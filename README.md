@@ -195,41 +195,41 @@ This project is based on HTML and CSS programming languages. Several technologie
 <h1><strong>Testing</strong></h1>
 <h2><strong>Testing user stories from UX of README.md</strong></h2>
 <ol>
-<li>As a first time visitor to the site, I would like to be able to navigate eaily throughtout the site and find the relevant information I need. </li>
+<li>As a first time visitor to the site, I would like to be able to navigate easily throughout the site and understand what it is for. </li>
     <br>
     <ul>
-    <li>The user will be able to move around and navigate across the website pages using the navigation bar menu that is placed on the top of each page.</li>
-    <li>A yellow underline is also an additional identifier to the user to let them know which page they are currently on.</li>
-    <li>The title and logo links the user back to the home page once clicked.</li>
+    <li></li>
+    <li></li>
+    <li></li>
     </ul>
     <br>
-<img src="assets/images/nav.png">
+<img src="assets/readmeimages/">
     <br>
-<li>As a first time tourist, I would like some reliable recommendations of where I should visit, which restraunts I should go eat in, and where I can accommodate during my stay that fits in with my budget.</li>
+<li>As a student, I would like a wide range of questions that cover a variety of difficulties and topics relating to the subject.</li>
     <br>
     <ul>
-    <li>On the attractions page, a list of the top sight seeing spots are listed. Each accompanied with text explaining and overview of this location and a carousel of images that is interactive. Hence providing the user with both text and images on each location.
+    <li>
     </li>
     </ul>
     <br>
 <img src="assets/images/attractions.png">
 <br>
-<li>As a returning visitor to the site, I would like to stay updated with the latest events, trips, tours and festivals that are possibly taking place during the time of my visit to Istanbul.</li>
+<li>As a student, I would like to know if the question I have answered is correct or incorrect.</li>
 <br>
     <ul>
-        <li>On all the website pages a signup section is inluded on top of the footer. This includes a subscribe button which when clicked links to a form page that opens up in a new tab. </li>
-        <li>The form page is kept simple and minimal to encourage users to fill it out. It sends regular newsletters and PDF travel guide brochures to users via email.</li>
+        <li> </li>
+        <li></li>
     </ul>
     <br>
 <img src="assets/images/signup.png">
 <br>
 <img src="assets/images/form.png">
 <br>
-<li>As a first time traveller to Istanbul, I would like to know some background information as to what I should expect from this city and what it is popular and known for. </li>
+<li>As a student, I would like to know how many questions I have left whilst taking the quiz. </li>
 <br>
     <ul>
-        <li>The home page includes a video section which consists of two youtube videos. These videos provide a quick overview that will be able to not just tell but also show users more about Istanbul and the atmosphere they should expect.</li>
-        <li>An interactive map section is also included in the home page which allow users to further explore in-depth the different locations.</li>
+        <li></li>
+        <li></li>
     </ul>
 <br>
 <img src="assets/images/videos.png">
@@ -237,22 +237,26 @@ This project is based on HTML and CSS programming languages. Several technologie
 <img src="assets/images/map.png">
 <br>
 
-<li>As a business owner, I would potentially be interested in advertising and promoting my service (restraunt, hotel or product etc.) onto the site to potenial customers(tourists) who may visit. </li>
+<li>As a student, I would want to be able to exit the selected quiz and choose another quiz instead, without having to complete the current quiz that I am on. </li>
+
 <br>
 <ul>
-    <li>The website includes a loding and dining page which can be used as potential advertising platforms for businesses.</li>
+    <li></li>
 </ul>
 <br>
 <img src="assets/images/lodging.png">
 <br>
 <img src="assets/images/dining.png">
 <br>
-<li>As a freelancing photographer, I would potentially like to feature my photographs of Istanbul to promote my work and gain exposure. </li>
+<li>As a teacher, I would like some interactive and enaging material to use in class activities. </li>
 <br>
-    <ul><li>The gallery includes a large selection of images from photographers found on Unsplash. This gallery can be updated on a regular basis featuring different local turkish photographers or travel photographers and their works.</li>
+    <ul><li></li>
     </ul>
 <br>
 <img src="assets/images/gallery.png">
+<br>
+<li>As a student, I would like to know the final score that I have achieved. </li>
+<li>As a user, I would like to directly go back to the main menu once I complete a quiz.</li>
 </ol>
 <br>
 <h2><strong>HTML Validation</strong></h2>
