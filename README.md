@@ -43,6 +43,7 @@ The website is divided into the following sections listed below:
 <h2><strong>Strategy</strong></h2>
 The strategy approach for this site was to provide a variety of different quizzes that users would be able to intereact with to gain exposure to a wide range of topics within this subject area. Additionally ease of access and simplicity was important to allow users to navigate through clearly.
 <br>
+<br>
 An essential part is to define who the target users of this website would be,and to consider what features they would like to see.
 
 <strong>The ideal users of this website would be:</strong>
@@ -107,7 +108,7 @@ To achieve the desired user & business goals, the following features have been i
 <h2><strong>Structure</strong></h2>
 This website is made up of 3 sections; the main menu, the quiz, and the final score. All these 3 sections were created on one single HTML page; and hence the website is made up of 1 page in total. Using CSS and JS, I was able to only display one section at a time and keep the other two hidden. The website landing page displays the main menu whilst keeping the quiz questions and final score reveal hidden. In the event that a quiz start button is clicked, the main menu is set to hidden, the quiz questions is set to display whilst the final score reveal remains hidden. Once the last question on the quiz has been answered, the quiz questions is set to hidden and the final score reveal is set to display. <br><br>
 Therefore the flow of this website goes from main menu, to quiz, to final score and back to main menu. The website has 6 quizzes in total to choose from, where each quiz is made up of 10 questions and four possible answer buttons. The website is responsive across several devices.
-<br><br>
+<br>
 
 <h2><strong>Skeleton</strong></h2>
 
@@ -119,7 +120,6 @@ The website consits of one single page, it consists of 3 sections that are not d
 <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/readmeimages/quiz-page-mockup.png" target="_blank" >Quiz Page - Desktop View</a> 
 <br>
 <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/readmeimages/finalscore-mockup.png" target="_blank" >Final Score Page - Desktop View</a> 
-<br>
 <br>
 
 <h2><strong>Surface</strong></h2>
@@ -135,28 +135,28 @@ To stand out when hovering over links/buttons the color changes from white to bl
 
 
 <h1><strong>Features</strong></h1>
-<h2><strong>Header</strong></h2>
-The website consists of four completed pages; Home, Attractions and Gallery, Form. It also consists of two uncompleted pages; Lodging and Dining. The header of the wesbite includes a logo and menu bar on the top of every page with a consistnet style. This will allow the user to efficiently move around and access the relevant information they require via the menu. The navigation links remain active when in use and this is indicated by a yellow underline. Additionally this menu bar is responsive across various devices. When being viewed on smaller devices such as mobile phones, the menu is collapsed into a hamburger icon that can be expaned when clicked on. The title in the header is also linked to the home page.
+<h2><strong>Main Menu</strong></h2>
+
 <br>
 <br>
-<h2><strong>Footer</strong></h2>
-Every page has a footer which includes a 'visit istanbul' slogan, quick links to the other pages of the site (to avoid scrolling to the top), alternatively there is also an arrow icon at the bottom of the page that is linked to scroll to the top of the page when clicked on. Social media icons are displayed which are linked to the blog's social media accounts.
+<h2><strong>Quiz Cover Image</strong></h2>
+
 <br>
 <br>
-<h2><strong>Home</strong></h2>
-The Home page starts with a large hero image with a scenic view of the coast in Istanbul. Below this a section on 'Why you should visit' is included. Thiis section only icludes a single quote in order to be kept short and convinving to users at first glance. Underneath this is the main text content of the home page which introduces the user with the purpose of the site. This section is divided into three columns; the first two columns are filled with text, and the column on the right includes an image of a famous bridge. To let the user know more about Istanbul before going further into browsing the website, two youtube videos are linked below this section using an embedded link from Youtube. Including a video is another way of providing the user with information without overwhelming them with too many words but rather showing them instead. Finally, an interactive map section is also included and this is done by using an embedded link from Google Maps. This allows the users to explore places visually on a map rather than just by reading text. 
+<h2><strong>Quiz Difficulty Level</strong></h2>
+ 
 <br>
 <br>
-<h2><strong>Attractions</strong></h2>
-This page consists of the majority of the information on the website. It provides an overview of the most famous spots to visit and the history behind each location. Alongside the text for each location an interative and responsive carousel of images is included to make it more visually appealing to users. The title of this page is an h2 element that sits underneath the responsive menu bar. The content on this page is built using h2 and p elements. The images are set to float to the left, and the paragraphs are set to float to the right.
+<h2><strong>"Start" Buttons</strong></h2>
+
 <br>
 <br>
-<h2><strong>Gallery</strong></h2>
- This page follows the same header and title format as the previous pages to keep the consitency. The main body is made up of a gallery modal pop-up images consiting of 30 pictures retrieved from Unsplash with their respective captions on each photo. This gallery was created using FancyBox libaries that were linked to my HTML code. The gallery is aligned to center the page and is responsive across different devices.
+<h2><strong>"Back to Main Menu" Button </strong></h2>
+
  <br>
  <br>
-<h2><strong>Subscribe</strong></h2>
-At the bottom of every page, right above the footer a sign up section had been included. This section has the heading 'Sign up to recieve a travel guide brochure' with a 'subscribe' button underneath. This button links to the form page. The form page includes a simple signup form that allows the user to subscribe to a regular newsletter from the travel blog and recieve a downloadable travel guide brochure via email. The form is made up of 2 text inputs for the name, and one email input. They have all been set to required, therefore the form is not completed until all fields have been filled out. The background on this page provides a sceneic image of the city that does not interfere with the styling of the form. This form is also responsive across different devices.
+<h2><strong>Question Indicator + Progress Bar </strong></h2>
+
 <br>
 <br>
 <h1><strong>Features to Implement in the future:</strong></h1>
