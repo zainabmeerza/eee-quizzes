@@ -1,28 +1,26 @@
 <h1><strong>EEE Quizzes</strong></h1>
 
-<h2>Code Institute Milestone Project 2</h2>
+<h2>Code Institute Milestone Project 2 -
+Interactive Frontend Development</h2>
 
 <p>
-    The aim of the second project is to develop a static front-end website with at least three individual pages using HTML and CSS. The website is designed such that it follows industry standard UX conventions. This website is made for educational purposes only. 
+    The aim of the second project is to develop an interactive website using HTML, CSS and JS. The website is designed such that it follows industry standard UX conventions. This website is made for educational purposes only. 
 </p>
 
-<a href="https://zainabmeerza.github.io/istanbul-travel/" target="_blank" >View the live website in GitHub Pages</a>
+<a href="https://zainabmeerza.github.io/eee-quizzes/" target="_blank" >View the live website in GitHub Pages</a>
 
 <img src="assets/readmeimages/am-i-responsive.png" height="350px" width="600px" alt="screenshot of the responsiveness of the website" >
 
 <p>This image is produced using the tool from <a href="http://ami.responsivedesign.is/#" target="_blank">Am I Responsive</a></p>
 
-<p>This website is created to provide guidance and help for tourists that are interested in visiting Istanbul, Turkey. It equips them with
-all the necessary information in order to encourage and guide them to plan a trip to the city. Information such as attraction spots, accomadation suggestions, restraunts to dine in as well as keeping them updated with the latest events that may be taking place during their visit. </p>
+<p>This website is created to provide students and teachers with educational resources that may help them for revision or in class. It can also be useful to anyone who has an interest in learning about electronics and electrical circuits as a hobby. It provides them with
+ </p>
 
 The website is divided into the following sections listed below:
     <ol>
-        <li>Home page - to provide the user and introduction and overview of what the webiste is about.</li>
-        <li>Attractions page - to provide a list of the top sightseeing spots that travellers should visit.</li>
-        <li>Lodging page - to compile together the best accomadation spots such as hotels, hostels, bed&breakfats, and resorts that they can stay in (with linked reviews from previous customers).</li>
-        <li>Dining page - to provide them with a list of the finest restraunts, cafes and bakeries (with linked reviews from previous customers)</li>
-        <li>Gallery page - to display a variety of pictures of the city and it's culture.</li>
-        <li>Form page - for the user to sign up to subscribe to a newsletter </li>
+        <li>The Main Menu - to provide the user and introduction and overview of what the webiste is about.</li>
+        <li>The Quiz Questions  - to provide a list of the top sightseeing spots that travellers should visit.</li>
+        <li>The Final Score - to compile together the best accomadation spots such as hotels, hostels, bed&breakfats, and resorts that they can stay in (with linked reviews from previous customers).</li>
     </ol>
 
 <h3><strong>The business goals of this website are the following:</strong></h3>
