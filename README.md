@@ -18,9 +18,9 @@ Interactive Frontend Development</h2>
 
 The website is divided into the following sections listed below:
     <ol>
-        <li>The Main Menu - to provide the user and introduction and overview of what the webiste is about.</li>
-        <li>The Quiz Questions  - to provide a list of the top sightseeing spots that travellers should visit.</li>
-        <li>The Final Score - to compile together the best accomadation spots such as hotels, hostels, bed&breakfats, and resorts that they can stay in (with linked reviews from previous customers).</li>
+        <li>The Main Menu - made up of a slider to provide the user with an overview of all the quizzes to select from and start.</li>
+        <li>The Quiz Questions  - an interactive quiz made up of 10 questions, where 4 multiple choice answers is included for each question.</li>
+        <li>The Final Score - Displays the final score the user obtained from the quiz and redirects them back to the Main Menu to select another quiz.</li>
     </ol>
 
 <h3><strong>The business goals of this website are the following:</strong></h3>
