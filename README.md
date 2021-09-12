@@ -27,13 +27,13 @@ The website is divided into the following sections listed below:
     <ul>
         <li>
         To provide an educational learning platform for students. </li>
-        <li>To provide teachers and schools leaarning resources for classroom activities</li>
+        <li>To provide teachers and schools learning resources for classroom activities</li>
         <li>To create a user friendly and easy to navigate website.</li>
     </ul>
 
 <h3><strong>The customer goals of this website are the following:</strong></h3>
  <ul>
-        <li>To have a reliable and interactive platform which is enaging the user whilst studying. </li>
+        <li>To have a reliable and interactive platform which is engaging the user whilst studying. </li>
         <li>To let the user briefly determine their level of knowledge on electrical circuits.</li>
         <li>To learn new information by acknowledging which questions were answered correctly or incorrectly. </li>
 </ul>
@@ -44,7 +44,7 @@ The website is divided into the following sections listed below:
 The strategy approach for this site was to provide a variety of different quizzes that users would be able to intereact with to gain exposure to a wide range of topics within this subject area. Additionally ease of access and simplicity was important to allow users to navigate through clearly.
 <br>
 <br>
-An essential part is to define who the target users of this website would be,and to consider what features they would like to see.
+An essential part is to define who the target users of this website would be, and to consider what features they would like to see.
 
 <strong>The ideal users of this website would be:</strong>
 <ul>
@@ -84,9 +84,9 @@ To achieve the desired user & business goals, the following features have been i
 <ol>
 <li> A landing page:</li>
     <ul>
-        <li>A header containing the title of the page </li>
+        <li>A header containing the title of the page. </li>
         <li>A Main Menu with an interactive slider to select a quiz.</li>
-        <li>A diagram for each quiz that is related to the topic   of that specific quiz.</li>
+        <li>A diagram for each quiz that is related to the topic of that specific quiz.</li>
         <li>Each quiz has a level of difficulty specified.</li>
         <li>A clear start button on each quiz.</li>
     </ul>
@@ -95,18 +95,18 @@ To achieve the desired user & business goals, the following features have been i
     <ul>
     <li>A progress bar indicating the current question.</li>
     <li>A back to main menu button.</li>
-    <li>10 questions and 4 multiple choice answers to choose from for each question </li>
+    <li>10 questions and 4 multiple choice answers to choose from for each question. </li>
     </ul>
     <br>
 <li> A final score page: </li>
     <ul>
-        <li>The user's final score</li>
-        <li>Back to main menu button</li>
+        <li>The user's final score.</li>
+        <li>Back to main menu button.</li>
     </ul>
  </ol>
 
 <h2><strong>Structure</strong></h2>
-This website is made up of 3 sections; the main menu, the quiz, and the final score. All these 3 sections were created on one single HTML page; and hence the website is made up of 1 page in total. Using CSS and JS, I was able to only display one section at a time and keep the other two hidden. The website landing page displays the main menu whilst keeping the quiz questions and final score reveal hidden. In the event that a quiz start button is clicked, the main menu is set to hidden, the quiz questions is set to display whilst the final score reveal remains hidden. Once the last question on the quiz has been answered, the quiz questions is set to hidden and the final score reveal is set to display. <br><br>
+This website is made up of 3 sections; the main menu, the quiz, and the final score. All these 3 sections were created on one single HTML page; and hence the website is made up of 1 page in total. Using CSS and JS, I was able to only display one section at a time and keep the other two hidden. The website landing page displays the main menu whilst keeping the quiz questions and final score sections hidden. In the event that a quiz start button is clicked, the main menu is set to hidden, the quiz questions is set to display whilst the final score still remains hidden. Once the last question on the quiz has been answered, the quiz questions is set to hidden and the final score reveal is set to display. <br><br>
 Therefore the flow of this website goes from main menu, to quiz, to final score and back to main menu. The website has 6 quizzes in total to choose from, where each quiz is made up of 10 questions and four possible answer buttons. The website is responsive across several devices.
 <br>
 
@@ -159,7 +159,7 @@ To stand out when hovering over links/buttons the color changes from white to bl
     <br>
     <strong>Quiz Question</strong> 
     <br>
-     <strong>4 containers containing the 4 multiple choice answers. 
+    <strong>4 containers containing the 4 multiple choice answers. </strong>
 
 <br>
 <br>
