@@ -40,7 +40,7 @@ class QuizGame {
         }
 
 
-        this.questionCounter++
+        this.questionCounter++;
         this.progressText.innerText = `Question ${this.questionCounter} of ${MAX_QUESTIONS}`;
         this.progressBarFull.style.width = `${(this.questionCounter / MAX_QUESTIONS) * 100}%`;
 
@@ -51,17 +51,17 @@ class QuizGame {
         this.choices.forEach(choice => {
             const number = choice.dataset.number;
             choice.innerText = this.currentQuestion['choice' + number];
-        })
+        });
 
         this.availableQuestions.splice(questionsIndex, 1);
 
         this.acceptingAnswers = true;
-    }
+    };
 
     addEventListener() {
         this.choices.forEach(choice => {
             choice.addEventListener('click', e => {
-                if (!this.acceptingAnswers) return
+                if (!this.acceptingAnswers) return;
 
                 this.acceptingAnswers = false;
                 const selectedChoice = e.target;
