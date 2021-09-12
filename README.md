@@ -181,12 +181,9 @@ This project is based on HTML and CSS programming languages. Several technologie
 <li><a href="https://github.com/" target="_blank">GitHub</a> - Was the platform used to hose the code that was written and pushed from GitPod. </li>
 <li><a href="https://balsamiq.cloud" target="_blank">Balsamiq</a> - A rapid low-fidelity UI wireframing tool used to sketch a rough plan of the website structure and contents to abiding by rhe best UX practices. </li>
 <li><a href="https://fontawesome.com/v6.0/icons?d=gallery&p=1&s=solid" target="_blank">FontAwesome</a> - The social media and title icons were taken from the toolkit provided by FontAwesome.</li>
-<li><a href="https://fancyapps.com/docs/ui/fancybox/" target="_blank">FancyBox</a> - Used to create a gallery modal popup to display a slideshow of images. </li>
 <li><a href="https://fonts.google.com/specimen/Oswald#pairings" target="_blank">Google Fonts</a> - Used to style the website fonts. </li>
 <li><a href="https://developer.chrome.com/docs/devtools/" target="_blank">Chrome Development Tools</a> - Used to test every stage whilst building the website, to help find and fix bugs within the code and test the responsiveness of the pages.</li>
-<li><a href="https://www.youtube.com/" target="_blank">Youtube</a> - To provide an embedded link to the videos on the home page.</li>
-<li><a href="https://www.google.com/maps/place/%C4%B0stanbul,+Turkey/@41.0039643,28.4517462,9z/data=!3m1!4b1!4m5!3m4!1s0x14caa7040068086b:0xe1ccfe98bc01b0d0!8m2!3d41.0082376!4d28.9783589" target="_blank">Google Maps</a> - To provide an embedded link to the map on the home page.</li>
-<li><a href="https://www.flaticon.com/free-icons/turkey" target="_blank">Flat Icon</a> - Used to select a favicon for the website. </li>
+<li><a href="https://www.flaticon.com/free-icons" target="_blank">Flat Icon</a> - Used to select a favicon for the website. </li>
 <li><a href="https://coolors.co/" target="_blank">Coloors</a> - To select a desired colour scheme for the website.</li>
 <li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation Service</a> - This tool was used to check the markup validity of the HTML Web documents of this project.</li>
 <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation Service</a> - This tool was used to check the validity of the CSS documents of this project. </li>
@@ -259,27 +256,35 @@ This project is based on HTML and CSS programming languages. Several technologie
 <br>
 <h2><strong>HTML Validation</strong></h2>
 I used <a href="https://validator.w3.org/" target="_blank">W3C Markup Validation</a> to check the validity of my HTML documents. Several issues were identified using this tool.
-<h3>Four errors were identified, these were:</h3>
-<img src="assets/images/html-errors.png">
-<h3>Three warnings were identified, these were:</h3>
-<img src="assets/images/html-warnings.png">
-And so the HTML was adjusted accordingly to improve on the errors. 
+<br>
+<br>
+No errors were identified but four warnings were brought up and so the HTML was adjusted accordingly to eliminate these.
+<br>
+<br>
+<img src="assets/readmeimages/HTML-test.png">
+<br>  
 <br>
 <h2><strong>CSS Validation</strong></h2>
 I used <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation</a> to check the validity of my CSS code. Several issues were identified using this tool.
-<h3>Four errors were identified, these were:</h3>
-<img src="assets/images/css-errors.png">
-And so the CSS was adjusted accordingly to improve on the errors. 
+<br>
+<br>
+Four errors were identified, and so the CSS was adjusted accordingly to improve on the errors. The <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/css/style.css" target="_blank"> style.css</a> file was validated with no errors as this was the CSS file written by me. The other CSS file was borrowed as part of JQuery, hence has no errors but some warnings.
+<br>
+<br>
+<img src="assets/readmeimages/CSS-test.png">
+<br>
 <br>
 <h2><strong>Light House</strong></h2>
 Lighthouse is a testing tool featured as part of Google Chrome developer tools. It is used to test the performance of the website. Initially the page achieved a very low score in performance and this was because of the high quality images used in the main menu that was not needed. To improve the performance, they were replaced with images of smaller sizes and this improved the performance score immensely. I also added some meta tags to improve the SEO performance. The final results I achieved are all above 90 for all scores.
 <br>
 <br>
 <h3>Results of Light House testing on the single page created:</h3>
+<br>
 <img src="assets/readmeimages/light-house.png">
 
 <h2><strong>WAVE Web Accessibility Evaluation</strong></h2>
 I then used <a href="https://wave.webaim.org/" target="_blank">WAVE</a> which is a web accessibility evaluation tool. The results obtained from this test are shown below. This showed that the color contrast on the project was weak and coulb be improvement in tthe future. 
+<br>
 <br>
 <img src="assets/readmeimages/WAVE-test.png">
 <br>
@@ -298,6 +303,7 @@ The following steps were carried out in order to deploy this project to GitHub P
 <li>Next, within the source section select the <strong>Master branch</strong> from the drop-down and then click save. </li>
 <li>Wait for a few minutes whilst the website is being processed.</li>
 <li>A few minutes later, the page URL will be given above the source section which links to the live site. This looks like the following:
+<br>
 <br>
 <img src="assets/readmeimages/deployment.png">
 </ol>
@@ -325,28 +331,28 @@ This will clone your working repository onto a local version. This is useful to 
 <h2><strong>Content</strong></h2>
 The content for this website was obtained from several websites, which are listed below. 
 <ul>
-<li><a href="https://www.electroschematics.com/electronics-quizzes/">Electro Schematics</a> - Contributed to the quiz 1 questions.</li>
-<li><a href="https://www.proprofs.com/quiz-school/topic/electronics">Pro Profs </a> - Contributed to the quiz 2 questions.</li>
-<li><a href="http://www.freepubquiz.co.uk/electronics-quiz.html">Free Bub Quiz </a> - Contributed to the quiz 3 questions.</li>
-<li><a href="https://www.funtrivia.com/playquiz/quiz518285f1b68.html">Fun Trivia </a> - Contributed to the quiz 4 quiz questions.</li>
-<li><a href="https://quizizz.com/admin/quiz/5ad63362d5ecda00192e66b8/basic-electronics">Quizizz </a> - Contributed to the quiz 5 questions.</li>
-<li><a href="https://quizlet.com/gb/topic/science/engineering/electrical-engineering/">Quizlet </a> - Contributed to the quiz 6 questions.</li>
+<li><a href="https://www.electroschematics.com/electronics-quizzes/" target="_blank">Electro Schematics</a> - Contributed to the quiz 1 questions.</li>
+<li><a href="https://www.proprofs.com/quiz-school/topic/electronics" target="_blank">Pro Profs </a> - Contributed to the quiz 2 questions.</li>
+<li><a href="http://www.freepubquiz.co.uk/electronics-quiz.html" target="_blank">Free Pub Quiz </a> - Contributed to the quiz 3 questions.</li>
+<li><a href="https://www.funtrivia.com/playquiz/quiz518285f1b68.html" target="_blank">Fun Trivia </a> - Contributed to the quiz 4 quiz questions.</li>
+<li><a href="https://quizizz.com/admin/quiz/5ad63362d5ecda00192e66b8/basic-electronics" target="_blank">Quizizz </a> - Contributed to the quiz 5 questions.</li>
+<li><a href="https://quizlet.com/gb/topic/science/engineering/electrical-engineering/" target="_blank">Quizlet </a> - Contributed to the quiz 6 questions.</li>
 
 </ul>
 
 <h2><strong>Media</strong></h2>
 <ul>
-<li>All images used in the website were obtained from <a href="https://www.electronics-tutorials.ws">Electronic Tutorials.</a></li>
+<li>All images used in the website were obtained from <a href="https://www.electronics-tutorials.ws" target="_blank">Electronic Tutorials.</a></li>
 
-<li>The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons">Flat Icon.</a></li>
+<li>The favicon used for the website was obtained from <a href="https://www.flaticon.com/free-icons" target="_blank">Flat Icon.</a></li>
 
-<li>The bulb and arrow icons used accross the page were obtained from <a href="https://fontawesome.com/">Font Awesome.</a></li>
+<li>The bulb and arrow icons used accross the page were obtained from <a href="https://fontawesome.com/" target="_blank">Font Awesome.</a></li>
 </ul>
 <h2><strong>Code</strong></h2>
 The following resources were used within the code and contributed to parts of the CSS, HTML and JS for this website.
 <ol>
 
-<li>The main menu slider (LightSlider) was created using <a href="http://sachinchoolur.github.io/lightslider/">JQuery.</a> Using this source, the code was borrowed which provided the entire contents for two of the JS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/JQuery3.3.1.js">JQuery3.3.1.js </a> and <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/lightslider.js"> lightslider.js</a><br>and provided the entire content of one of the CSS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/css/lightslider.css">lightslider.css </a></li>
+<li>The main menu slider (LightSlider) was created using <a href="http://sachinchoolur.github.io/lightslider/" target="_blank">JQuery.</a> Using this source, the code was borrowed which provided the entire contents for two of the JS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/JQuery3.3.1.js" target="_blank">JQuery3.3.1.js </a> and <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/js/lightslider.js" target="_blank"> lightslider.js</a><br>and provided the entire content of one of the CSS files: <a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/css/lightslider.css" target="_blank">lightslider.css </a></li>
 
 </ol>
 
