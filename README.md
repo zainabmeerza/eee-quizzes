@@ -112,11 +112,11 @@ Therefore the flow of this website goes from main menu, to quiz, to final score 
 The website consits of one single page, it consists of 3 sections that are not displayed all at once, but are displayed one at a time. 
 
 <h3>The wireframe mockups for the landing page:</h3>
-<a href="" target="_blank" >Landing Page - Desktop View</a> 
+<a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/readmeimages/landing-page-mockup.png" target="_blank" >Landing Page - Desktop View</a> 
 <br>
-<a href="" target="_blank" >Quiz Page - Desktop View</a> 
+<a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/readmeimages/quiz-page-mockup.png" target="_blank" >Quiz Page - Desktop View</a> 
 <br>
-<a href="" target="_blank" >Final Score Page - Desktop View</a> 
+<a href="https://github.com/zainabmeerza/eee-quizzes/blob/main/assets/readmeimages/finalscore-mockup.png" target="_blank" >Final Score Page - Desktop View</a> 
 <br>
 <br>
 
